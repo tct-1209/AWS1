@@ -1,4 +1,4 @@
----
+﻿---
 title: "Proposal"
 date: 2026-07-01
 weight: 2
@@ -41,7 +41,7 @@ Advanced components such as Load Balancer, Auto Scaling, Route 53, CloudFront CD
 
 Users and admins access the website through a browser. The frontend is hosted on **Amazon S3 Static Website Hosting**. After the frontend files are loaded in the browser, the React/Vite application calls backend APIs through the **Elastic IP** attached to the EC2 instance. The Spring Boot backend runs on **Amazon EC2**, processes business logic, and connects to **Amazon RDS for SQL Server** to read and write data. For payment, the backend creates a VNPay Sandbox payment URL and receives the redirect/callback result to update the order status.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/summer-store-workflow.png" alt="SUMMER-STORE deployment workflow on AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/summer-store-workflow.png" alt="SUMMER-STORE deployment workflow on AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>SUMMER-STORE deployment workflow on AWS</em></p>
 
 ## 6. AWS Services Used
@@ -65,21 +65,21 @@ Users and admins access the website through a browser. The frontend is hosted on
 
 The frontend is built with React/Vite. After the build process, the static files in the `dist` folder are uploaded to an S3 frontend bucket so users can access the website through the S3 website endpoint.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/s3-frontend-success.png" alt="Frontend deployed on Amazon S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/s3-frontend-success.png" alt="Frontend deployed on Amazon S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>SUMMER-STORE frontend deployed on Amazon S3</em></p>
 
 ### 7.2 Backend
 
 The backend is developed with Spring Boot. It is built into a `.jar` file, uploaded to EC2, and executed with Java 17. The backend receives requests from the frontend, processes business logic, and returns API responses to the website.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/ec2-backend-instance.png" alt="Amazon EC2 running Spring Boot backend" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/ec2-backend-instance.png" alt="Amazon EC2 running Spring Boot backend" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Amazon EC2 is used to deploy the Spring Boot backend</em></p>
 
 ### 7.3 Database
 
 The database uses Amazon RDS for SQL Server. The backend connects to RDS through JDBC to store and query data such as user accounts, products, product variants, carts, and orders.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/rds-sqlserver-available.png" alt="Amazon RDS for SQL Server" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/rds-sqlserver-available.png" alt="Amazon RDS for SQL Server" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Amazon RDS for SQL Server in Available state</em></p>
 
 ### 7.4 Payment
@@ -123,3 +123,4 @@ After completion, the SUMMER-STORE system is expected to run on AWS with the fol
 ## 11. Future Improvements
 
 In the future, the system can be improved by adding **CloudFront** for faster frontend delivery, **Route 53** for a custom domain, **Application Load Balancer** and **Auto Scaling** for backend availability, and CI/CD for automatic build and deployment.
+

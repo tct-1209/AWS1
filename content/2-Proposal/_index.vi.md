@@ -1,125 +1,126 @@
----
-title: "Bản đề xuất"
+﻿---
+title: "Báº£n Ä‘á» xuáº¥t"
 date: 2026-07-01
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
 
-# Bản đề xuất triển khai dự án SUMMER-STORE trên AWS
+# Báº£n Ä‘á» xuáº¥t triá»ƒn khai dá»± Ã¡n SUMMER-STORE trÃªn AWS
 
-## 1. Tên đề tài
+## 1. TÃªn Ä‘á» tÃ i
 
-**Triển khai website thương mại điện tử SUMMER-STORE trên nền tảng AWS**
+**Triá»ƒn khai website thÆ°Æ¡ng máº¡i Ä‘iá»‡n tá»­ SUMMER-STORE trÃªn ná»n táº£ng AWS**
 
-Dự án tập trung vào việc đưa hệ thống website bán quần áo **SUMMER-STORE** từ môi trường local lên AWS. Hệ thống bao gồm frontend React/Vite, backend Spring Boot, database SQL Server và chức năng thanh toán thử nghiệm qua VNPay Sandbox.
+Dá»± Ã¡n táº­p trung vÃ o viá»‡c Ä‘Æ°a há»‡ thá»‘ng website bÃ¡n quáº§n Ã¡o **SUMMER-STORE** tá»« mÃ´i trÆ°á»ng local lÃªn AWS. Há»‡ thá»‘ng bao gá»“m frontend React/Vite, backend Spring Boot, database SQL Server vÃ  chá»©c nÄƒng thanh toÃ¡n thá»­ nghiá»‡m qua VNPay Sandbox.
 
-## 2. Lý do chọn đề tài
+## 2. LÃ½ do chá»n Ä‘á» tÃ i
 
-Trong thực tế, một website thương mại điện tử không chỉ cần chạy được trên máy local mà còn cần có khả năng truy cập qua Internet, lưu trữ dữ liệu tập trung, xử lý API ổn định và dễ theo dõi chi phí vận hành. Vì vậy, đề tài này được lựa chọn nhằm thực hành quy trình triển khai một hệ thống fullstack lên cloud thông qua các dịch vụ AWS cơ bản.
+Trong thá»±c táº¿, má»™t website thÆ°Æ¡ng máº¡i Ä‘iá»‡n tá»­ khÃ´ng chá»‰ cáº§n cháº¡y Ä‘Æ°á»£c trÃªn mÃ¡y local mÃ  cÃ²n cáº§n cÃ³ kháº£ nÄƒng truy cáº­p qua Internet, lÆ°u trá»¯ dá»¯ liá»‡u táº­p trung, xá»­ lÃ½ API á»•n Ä‘á»‹nh vÃ  dá»… theo dÃµi chi phÃ­ váº­n hÃ nh. VÃ¬ váº­y, Ä‘á» tÃ i nÃ y Ä‘Æ°á»£c lá»±a chá»n nháº±m thá»±c hÃ nh quy trÃ¬nh triá»ƒn khai má»™t há»‡ thá»‘ng fullstack lÃªn cloud thÃ´ng qua cÃ¡c dá»‹ch vá»¥ AWS cÆ¡ báº£n.
 
-Việc triển khai SUMMER-STORE trên AWS giúp sinh viên hiểu rõ hơn cách kết hợp **Amazon S3**, **Amazon EC2**, **Amazon RDS**, **Elastic IP**, **IAM**, **AWS CLI**, **CloudWatch** và **AWS Budgets** trong một bài toán gần với thực tế.
+Viá»‡c triá»ƒn khai SUMMER-STORE trÃªn AWS giÃºp sinh viÃªn hiá»ƒu rÃµ hÆ¡n cÃ¡ch káº¿t há»£p **Amazon S3**, **Amazon EC2**, **Amazon RDS**, **Elastic IP**, **IAM**, **AWS CLI**, **CloudWatch** vÃ  **AWS Budgets** trong má»™t bÃ i toÃ¡n gáº§n vá»›i thá»±c táº¿.
 
-## 3. Mục tiêu đề tài
+## 3. Má»¥c tiÃªu Ä‘á» tÃ i
 
-- Triển khai frontend React/Vite bằng **Amazon S3 Static Website Hosting**.
-- Triển khai backend Spring Boot trên **Amazon EC2**.
-- Sử dụng **Amazon RDS for SQL Server** để lưu dữ liệu hệ thống.
-- Cấu hình **Elastic IP** để cố định địa chỉ truy cập API backend.
-- Cấu hình **Security Group** cho SSH, API backend và kết nối database.
-- Lưu trữ ảnh sản phẩm bằng **Amazon S3**.
-- Kiểm thử các chức năng chính: đăng nhập, quản lý sản phẩm, tồn kho, đơn hàng và thanh toán VNPay Sandbox.
-- Theo dõi hoạt động và chi phí bằng **CloudWatch**, **AWS Budgets** và **Billing**.
+- Triá»ƒn khai frontend React/Vite báº±ng **Amazon S3 Static Website Hosting**.
+- Triá»ƒn khai backend Spring Boot trÃªn **Amazon EC2**.
+- Sá»­ dá»¥ng **Amazon RDS for SQL Server** Ä‘á»ƒ lÆ°u dá»¯ liá»‡u há»‡ thá»‘ng.
+- Cáº¥u hÃ¬nh **Elastic IP** Ä‘á»ƒ cá»‘ Ä‘á»‹nh Ä‘á»‹a chá»‰ truy cáº­p API backend.
+- Cáº¥u hÃ¬nh **Security Group** cho SSH, API backend vÃ  káº¿t ná»‘i database.
+- LÆ°u trá»¯ áº£nh sáº£n pháº©m báº±ng **Amazon S3**.
+- Kiá»ƒm thá»­ cÃ¡c chá»©c nÄƒng chÃ­nh: Ä‘Äƒng nháº­p, quáº£n lÃ½ sáº£n pháº©m, tá»“n kho, Ä‘Æ¡n hÃ ng vÃ  thanh toÃ¡n VNPay Sandbox.
+- Theo dÃµi hoáº¡t Ä‘á»™ng vÃ  chi phÃ­ báº±ng **CloudWatch**, **AWS Budgets** vÃ  **Billing**.
 
-## 4. Phạm vi thực hiện
+## 4. Pháº¡m vi thá»±c hiá»‡n
 
-Phạm vi đề tài tập trung vào triển khai hệ thống ở mức demo/thực tập. Các chức năng chính gồm đăng ký, đăng nhập, hiển thị sản phẩm, quản lý sản phẩm, quản lý biến thể, quản lý tồn kho, quản lý đơn hàng và thanh toán thử nghiệm bằng VNPay Sandbox.
+Pháº¡m vi Ä‘á» tÃ i táº­p trung vÃ o triá»ƒn khai há»‡ thá»‘ng á»Ÿ má»©c demo/thá»±c táº­p. CÃ¡c chá»©c nÄƒng chÃ­nh gá»“m Ä‘Äƒng kÃ½, Ä‘Äƒng nháº­p, hiá»ƒn thá»‹ sáº£n pháº©m, quáº£n lÃ½ sáº£n pháº©m, quáº£n lÃ½ biáº¿n thá»ƒ, quáº£n lÃ½ tá»“n kho, quáº£n lÃ½ Ä‘Æ¡n hÃ ng vÃ  thanh toÃ¡n thá»­ nghiá»‡m báº±ng VNPay Sandbox.
 
-Đề tài chưa triển khai các thành phần nâng cao như Load Balancer, Auto Scaling, Route 53, CloudFront CDN hoặc CI/CD tự động hoàn chỉnh. Những thành phần này có thể được bổ sung trong giai đoạn mở rộng sau.
+Äá» tÃ i chÆ°a triá»ƒn khai cÃ¡c thÃ nh pháº§n nÃ¢ng cao nhÆ° Load Balancer, Auto Scaling, Route 53, CloudFront CDN hoáº·c CI/CD tá»± Ä‘á»™ng hoÃ n chá»‰nh. Nhá»¯ng thÃ nh pháº§n nÃ y cÃ³ thá»ƒ Ä‘Æ°á»£c bá»• sung trong giai Ä‘oáº¡n má»Ÿ rá»™ng sau.
 
-## 5. Kiến trúc đề xuất
+## 5. Kiáº¿n trÃºc Ä‘á» xuáº¥t
 
-Người dùng hoặc admin truy cập website thông qua trình duyệt. Frontend được host trên **Amazon S3 Static Website Hosting**. Sau khi tải giao diện về trình duyệt, ứng dụng React/Vite gọi API tới backend thông qua **Elastic IP** của EC2. Backend Spring Boot chạy trên **Amazon EC2**, xử lý nghiệp vụ và kết nối tới **Amazon RDS SQL Server** để đọc/ghi dữ liệu. Với chức năng thanh toán, backend tạo URL thanh toán VNPay Sandbox và nhận redirect/callback để cập nhật trạng thái đơn hàng.
+NgÆ°á»i dÃ¹ng hoáº·c admin truy cáº­p website thÃ´ng qua trÃ¬nh duyá»‡t. Frontend Ä‘Æ°á»£c host trÃªn **Amazon S3 Static Website Hosting**. Sau khi táº£i giao diá»‡n vá» trÃ¬nh duyá»‡t, á»©ng dá»¥ng React/Vite gá»i API tá»›i backend thÃ´ng qua **Elastic IP** cá»§a EC2. Backend Spring Boot cháº¡y trÃªn **Amazon EC2**, xá»­ lÃ½ nghiá»‡p vá»¥ vÃ  káº¿t ná»‘i tá»›i **Amazon RDS SQL Server** Ä‘á»ƒ Ä‘á»c/ghi dá»¯ liá»‡u. Vá»›i chá»©c nÄƒng thanh toÃ¡n, backend táº¡o URL thanh toÃ¡n VNPay Sandbox vÃ  nháº­n redirect/callback Ä‘á»ƒ cáº­p nháº­t tráº¡ng thÃ¡i Ä‘Æ¡n hÃ ng.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/summer-store-workflow.png" alt="Workflow triển khai SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Workflow triển khai SUMMER-STORE trên AWS</em></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/summer-store-workflow.png" alt="Workflow triá»ƒn khai SUMMER-STORE trÃªn AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Workflow triá»ƒn khai SUMMER-STORE trÃªn AWS</em></p>
 
-## 6. Các dịch vụ AWS sử dụng
+## 6. CÃ¡c dá»‹ch vá»¥ AWS sá»­ dá»¥ng
 
-| Dịch vụ | Vai trò trong dự án |
+| Dá»‹ch vá»¥ | Vai trÃ² trong dá»± Ã¡n |
 |---|---|
-| **Amazon S3 Static Website Hosting** | Host frontend React/Vite gồm `index.html`, JavaScript, CSS và tài nguyên tĩnh. |
-| **Amazon S3 Product Images Bucket** | Lưu trữ ảnh sản phẩm và media của hệ thống. |
-| **Amazon EC2** | Chạy backend Spring Boot bằng file `app.jar`. |
-| **Elastic IP** | Cố định địa chỉ backend API, ví dụ `13.223.11.215:8080`. |
-| **Amazon RDS for SQL Server** | Lưu trữ dữ liệu người dùng, sản phẩm, giỏ hàng, đơn hàng và biến thể sản phẩm. |
-| **Security Group** | Kiểm soát truy cập port `22`, `8080`, `80/443` và `1433`. |
-| **AWS IAM** | Quản lý user, quyền truy cập và access key cho AWS CLI. |
-| **AWS CLI** | Hỗ trợ start/stop EC2, kiểm tra trạng thái tài nguyên và thao tác với AWS từ máy local. |
-| **Amazon CloudWatch** | Theo dõi log và trạng thái vận hành cơ bản. |
-| **AWS Budgets / Billing** | Theo dõi credit và chi phí sử dụng AWS. |
+| **Amazon S3 Static Website Hosting** | Host frontend React/Vite gá»“m `index.html`, JavaScript, CSS vÃ  tÃ i nguyÃªn tÄ©nh. |
+| **Amazon S3 Product Images Bucket** | LÆ°u trá»¯ áº£nh sáº£n pháº©m vÃ  media cá»§a há»‡ thá»‘ng. |
+| **Amazon EC2** | Cháº¡y backend Spring Boot báº±ng file `app.jar`. |
+| **Elastic IP** | Cá»‘ Ä‘á»‹nh Ä‘á»‹a chá»‰ backend API, vÃ­ dá»¥ `13.223.11.215:8080`. |
+| **Amazon RDS for SQL Server** | LÆ°u trá»¯ dá»¯ liá»‡u ngÆ°á»i dÃ¹ng, sáº£n pháº©m, giá» hÃ ng, Ä‘Æ¡n hÃ ng vÃ  biáº¿n thá»ƒ sáº£n pháº©m. |
+| **Security Group** | Kiá»ƒm soÃ¡t truy cáº­p port `22`, `8080`, `80/443` vÃ  `1433`. |
+| **AWS IAM** | Quáº£n lÃ½ user, quyá»n truy cáº­p vÃ  access key cho AWS CLI. |
+| **AWS CLI** | Há»— trá»£ start/stop EC2, kiá»ƒm tra tráº¡ng thÃ¡i tÃ i nguyÃªn vÃ  thao tÃ¡c vá»›i AWS tá»« mÃ¡y local. |
+| **Amazon CloudWatch** | Theo dÃµi log vÃ  tráº¡ng thÃ¡i váº­n hÃ nh cÆ¡ báº£n. |
+| **AWS Budgets / Billing** | Theo dÃµi credit vÃ  chi phÃ­ sá»­ dá»¥ng AWS. |
 
-## 7. Thiết kế thành phần
+## 7. Thiáº¿t káº¿ thÃ nh pháº§n
 
 ### 7.1 Frontend
 
-Frontend được phát triển bằng React/Vite. Sau khi build, các file static trong thư mục `dist` được upload lên S3 bucket frontend để người dùng có thể truy cập website qua S3 website endpoint.
+Frontend Ä‘Æ°á»£c phÃ¡t triá»ƒn báº±ng React/Vite. Sau khi build, cÃ¡c file static trong thÆ° má»¥c `dist` Ä‘Æ°á»£c upload lÃªn S3 bucket frontend Ä‘á»ƒ ngÆ°á»i dÃ¹ng cÃ³ thá»ƒ truy cáº­p website qua S3 website endpoint.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/s3-frontend-success.png" alt="Frontend triển khai trên Amazon S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Frontend SUMMER-STORE sau khi triển khai lên Amazon S3</em></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/s3-frontend-success.png" alt="Frontend triá»ƒn khai trÃªn Amazon S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Frontend SUMMER-STORE sau khi triá»ƒn khai lÃªn Amazon S3</em></p>
 
 ### 7.2 Backend
 
-Backend được phát triển bằng Spring Boot. Ứng dụng được build thành file `.jar`, upload lên EC2 và chạy bằng Java 17. Backend tiếp nhận request từ frontend, xử lý nghiệp vụ và trả dữ liệu API cho website.
+Backend Ä‘Æ°á»£c phÃ¡t triá»ƒn báº±ng Spring Boot. á»¨ng dá»¥ng Ä‘Æ°á»£c build thÃ nh file `.jar`, upload lÃªn EC2 vÃ  cháº¡y báº±ng Java 17. Backend tiáº¿p nháº­n request tá»« frontend, xá»­ lÃ½ nghiá»‡p vá»¥ vÃ  tráº£ dá»¯ liá»‡u API cho website.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/ec2-backend-instance.png" alt="Amazon EC2 chạy backend Spring Boot" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Amazon EC2 được sử dụng để triển khai backend Spring Boot</em></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/ec2-backend-instance.png" alt="Amazon EC2 cháº¡y backend Spring Boot" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Amazon EC2 Ä‘Æ°á»£c sá»­ dá»¥ng Ä‘á»ƒ triá»ƒn khai backend Spring Boot</em></p>
 
 ### 7.3 Database
 
-Database sử dụng Amazon RDS for SQL Server. Backend kết nối đến RDS thông qua JDBC để lưu trữ và truy vấn dữ liệu như tài khoản người dùng, sản phẩm, biến thể sản phẩm, giỏ hàng và đơn hàng.
+Database sá»­ dá»¥ng Amazon RDS for SQL Server. Backend káº¿t ná»‘i Ä‘áº¿n RDS thÃ´ng qua JDBC Ä‘á»ƒ lÆ°u trá»¯ vÃ  truy váº¥n dá»¯ liá»‡u nhÆ° tÃ i khoáº£n ngÆ°á»i dÃ¹ng, sáº£n pháº©m, biáº¿n thá»ƒ sáº£n pháº©m, giá» hÃ ng vÃ  Ä‘Æ¡n hÃ ng.
 
-<p class="workshop-img"><img src="/aws/images/2-Proposal/rds-sqlserver-available.png" alt="Amazon RDS SQL Server" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Amazon RDS SQL Server ở trạng thái Available</em></p>
+<p class="workshop-img"><img src="/AWS/images/2-Proposal/rds-sqlserver-available.png" alt="Amazon RDS SQL Server" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Amazon RDS SQL Server á»Ÿ tráº¡ng thÃ¡i Available</em></p>
 
-### 7.4 Thanh toán
+### 7.4 Thanh toÃ¡n
 
-VNPay Sandbox là dịch vụ thanh toán bên ngoài AWS. Backend tạo payment URL, chuyển người dùng sang trang thanh toán VNPay và nhận kết quả redirect/callback để cập nhật trạng thái đơn hàng trong database.
+VNPay Sandbox lÃ  dá»‹ch vá»¥ thanh toÃ¡n bÃªn ngoÃ i AWS. Backend táº¡o payment URL, chuyá»ƒn ngÆ°á»i dÃ¹ng sang trang thanh toÃ¡n VNPay vÃ  nháº­n káº¿t quáº£ redirect/callback Ä‘á»ƒ cáº­p nháº­t tráº¡ng thÃ¡i Ä‘Æ¡n hÃ ng trong database.
 
-## 8. Kế hoạch triển khai
+## 8. Káº¿ hoáº¡ch triá»ƒn khai
 
-| Giai đoạn | Nội dung thực hiện |
+| Giai Ä‘oáº¡n | Ná»™i dung thá»±c hiá»‡n |
 |---|---|
-| Giai đoạn 1 | Chuẩn bị mã nguồn frontend, backend, tài khoản AWS, IAM user và AWS CLI. |
-| Giai đoạn 2 | Tạo EC2, cấu hình Security Group, cài Java 17 và deploy backend Spring Boot. |
-| Giai đoạn 3 | Tạo Amazon RDS SQL Server, tạo database `clothing_store_backend` và cập nhật file `.env`. |
-| Giai đoạn 4 | Tạo S3 bucket lưu ảnh sản phẩm và cấu hình bucket policy phù hợp. |
-| Giai đoạn 5 | Build frontend React/Vite, upload file static lên S3 và bật Static Website Hosting. |
-| Giai đoạn 6 | Gắn Elastic IP, kiểm thử API, đăng nhập, quản lý sản phẩm, đơn hàng và VNPay Sandbox. |
-| Giai đoạn 7 | Theo dõi vận hành, kiểm tra chi phí và dọn dẹp tài nguyên không cần thiết. |
+| Giai Ä‘oáº¡n 1 | Chuáº©n bá»‹ mÃ£ nguá»“n frontend, backend, tÃ i khoáº£n AWS, IAM user vÃ  AWS CLI. |
+| Giai Ä‘oáº¡n 2 | Táº¡o EC2, cáº¥u hÃ¬nh Security Group, cÃ i Java 17 vÃ  deploy backend Spring Boot. |
+| Giai Ä‘oáº¡n 3 | Táº¡o Amazon RDS SQL Server, táº¡o database `clothing_store_backend` vÃ  cáº­p nháº­t file `.env`. |
+| Giai Ä‘oáº¡n 4 | Táº¡o S3 bucket lÆ°u áº£nh sáº£n pháº©m vÃ  cáº¥u hÃ¬nh bucket policy phÃ¹ há»£p. |
+| Giai Ä‘oáº¡n 5 | Build frontend React/Vite, upload file static lÃªn S3 vÃ  báº­t Static Website Hosting. |
+| Giai Ä‘oáº¡n 6 | Gáº¯n Elastic IP, kiá»ƒm thá»­ API, Ä‘Äƒng nháº­p, quáº£n lÃ½ sáº£n pháº©m, Ä‘Æ¡n hÃ ng vÃ  VNPay Sandbox. |
+| Giai Ä‘oáº¡n 7 | Theo dÃµi váº­n hÃ nh, kiá»ƒm tra chi phÃ­ vÃ  dá»n dáº¹p tÃ i nguyÃªn khÃ´ng cáº§n thiáº¿t. |
 
-## 9. Kết quả mong đợi
+## 9. Káº¿t quáº£ mong Ä‘á»£i
 
-Sau khi hoàn thành, hệ thống SUMMER-STORE có thể hoạt động trên môi trường AWS với các kết quả sau:
+Sau khi hoÃ n thÃ nh, há»‡ thá»‘ng SUMMER-STORE cÃ³ thá»ƒ hoáº¡t Ä‘á»™ng trÃªn mÃ´i trÆ°á»ng AWS vá»›i cÃ¡c káº¿t quáº£ sau:
 
-- Người dùng truy cập được frontend thông qua S3 website endpoint.
-- Frontend gọi được API backend thông qua Elastic IP.
-- Backend Spring Boot chạy ổn định trên EC2 bằng `systemd service`.
-- Dữ liệu được lưu trữ và truy vấn từ Amazon RDS SQL Server.
-- Admin có thể quản lý sản phẩm, tồn kho và đơn hàng.
-- Người dùng có thể đặt hàng và thanh toán thử nghiệm qua VNPay Sandbox.
-- Người thực hiện nắm được quy trình triển khai website fullstack lên AWS và cách theo dõi chi phí cloud.
+- NgÆ°á»i dÃ¹ng truy cáº­p Ä‘Æ°á»£c frontend thÃ´ng qua S3 website endpoint.
+- Frontend gá»i Ä‘Æ°á»£c API backend thÃ´ng qua Elastic IP.
+- Backend Spring Boot cháº¡y á»•n Ä‘á»‹nh trÃªn EC2 báº±ng `systemd service`.
+- Dá»¯ liá»‡u Ä‘Æ°á»£c lÆ°u trá»¯ vÃ  truy váº¥n tá»« Amazon RDS SQL Server.
+- Admin cÃ³ thá»ƒ quáº£n lÃ½ sáº£n pháº©m, tá»“n kho vÃ  Ä‘Æ¡n hÃ ng.
+- NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ Ä‘áº·t hÃ ng vÃ  thanh toÃ¡n thá»­ nghiá»‡m qua VNPay Sandbox.
+- NgÆ°á»i thá»±c hiá»‡n náº¯m Ä‘Æ°á»£c quy trÃ¬nh triá»ƒn khai website fullstack lÃªn AWS vÃ  cÃ¡ch theo dÃµi chi phÃ­ cloud.
 
-## 10. Rủi ro và hướng xử lý
+## 10. Rá»§i ro vÃ  hÆ°á»›ng xá»­ lÃ½
 
-| Rủi ro | Hướng xử lý |
+| Rá»§i ro | HÆ°á»›ng xá»­ lÃ½ |
 |---|---|
-| Backend không truy cập được từ frontend | Kiểm tra Security Group, port `8080`, Elastic IP và CORS. |
-| EC2 không kết nối được RDS | Kiểm tra endpoint RDS, port `1433`, Security Group và thông tin `.env`. |
-| Ảnh sản phẩm không hiển thị | Kiểm tra S3 bucket policy, object URL và quyền public read nếu cần. |
-| VNPay Sandbox lỗi callback | Kiểm tra `returnUrl`, mã cấu hình VNPay và chữ ký bảo mật. |
-| Chi phí AWS vượt dự kiến | Theo dõi Billing/Budgets, stop EC2/RDS khi không sử dụng. |
+| Backend khÃ´ng truy cáº­p Ä‘Æ°á»£c tá»« frontend | Kiá»ƒm tra Security Group, port `8080`, Elastic IP vÃ  CORS. |
+| EC2 khÃ´ng káº¿t ná»‘i Ä‘Æ°á»£c RDS | Kiá»ƒm tra endpoint RDS, port `1433`, Security Group vÃ  thÃ´ng tin `.env`. |
+| áº¢nh sáº£n pháº©m khÃ´ng hiá»ƒn thá»‹ | Kiá»ƒm tra S3 bucket policy, object URL vÃ  quyá»n public read náº¿u cáº§n. |
+| VNPay Sandbox lá»—i callback | Kiá»ƒm tra `returnUrl`, mÃ£ cáº¥u hÃ¬nh VNPay vÃ  chá»¯ kÃ½ báº£o máº­t. |
+| Chi phÃ­ AWS vÆ°á»£t dá»± kiáº¿n | Theo dÃµi Billing/Budgets, stop EC2/RDS khi khÃ´ng sá»­ dá»¥ng. |
 
-## 11. Hướng mở rộng
+## 11. HÆ°á»›ng má»Ÿ rá»™ng
 
-Trong tương lai, hệ thống có thể được mở rộng bằng cách sử dụng **CloudFront** để tăng tốc frontend, **Route 53** để gắn tên miền riêng, **Application Load Balancer** và **Auto Scaling** để tăng độ sẵn sàng cho backend, cũng như triển khai CI/CD để tự động build và deploy mã nguồn.
+Trong tÆ°Æ¡ng lai, há»‡ thá»‘ng cÃ³ thá»ƒ Ä‘Æ°á»£c má»Ÿ rá»™ng báº±ng cÃ¡ch sá»­ dá»¥ng **CloudFront** Ä‘á»ƒ tÄƒng tá»‘c frontend, **Route 53** Ä‘á»ƒ gáº¯n tÃªn miá»n riÃªng, **Application Load Balancer** vÃ  **Auto Scaling** Ä‘á»ƒ tÄƒng Ä‘á»™ sáºµn sÃ ng cho backend, cÅ©ng nhÆ° triá»ƒn khai CI/CD Ä‘á»ƒ tá»± Ä‘á»™ng build vÃ  deploy mÃ£ nguá»“n.
+

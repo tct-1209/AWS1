@@ -1,36 +1,37 @@
----
-title: "Chuẩn bị triển khai"
+﻿---
+title: "Chuáº©n bá»‹ triá»ƒn khai"
 date: 2026-07-01
 weight: 2
 chapter: false
 pre: " <b> 5.2. </b> "
 ---
 
-# Chuẩn bị triển khai
+# Chuáº©n bá»‹ triá»ƒn khai
 
-Trước khi triển khai dự án SUMMER-STORE lên AWS, cần chuẩn bị tài khoản AWS, mã nguồn frontend/backend, key pair để SSH vào EC2 và các thông tin cấu hình cho database, JWT, email, lưu trữ ảnh và VNPay.
+TrÆ°á»›c khi triá»ƒn khai dá»± Ã¡n SUMMER-STORE lÃªn AWS, cáº§n chuáº©n bá»‹ tÃ i khoáº£n AWS, mÃ£ nguá»“n frontend/backend, key pair Ä‘á»ƒ SSH vÃ o EC2 vÃ  cÃ¡c thÃ´ng tin cáº¥u hÃ¬nh cho database, JWT, email, lÆ°u trá»¯ áº£nh vÃ  VNPay.
 
-#### Thành phần cần chuẩn bị
+#### ThÃ nh pháº§n cáº§n chuáº©n bá»‹
 
-| Thành phần | Mục đích |
+| ThÃ nh pháº§n | Má»¥c Ä‘Ã­ch |
 |---|---|
-| AWS Account | Tạo và quản lý tài nguyên AWS |
-| IAM User / Access Key | Sử dụng AWS CLI để start/stop EC2, kiểm tra tài nguyên |
-| EC2 Key Pair `.pem` | SSH vào EC2 để deploy backend |
-| Backend Spring Boot | Build thành file `.jar` để chạy trên EC2 |
-| Frontend React/Vite | Build thành static files để upload lên S3 |
-| RDS SQL Server | Database lưu user, sản phẩm, giỏ hàng, đơn hàng |
-| VNPay Sandbox | Kiểm thử luồng thanh toán |
+| AWS Account | Táº¡o vÃ  quáº£n lÃ½ tÃ i nguyÃªn AWS |
+| IAM User / Access Key | Sá»­ dá»¥ng AWS CLI Ä‘á»ƒ start/stop EC2, kiá»ƒm tra tÃ i nguyÃªn |
+| EC2 Key Pair `.pem` | SSH vÃ o EC2 Ä‘á»ƒ deploy backend |
+| Backend Spring Boot | Build thÃ nh file `.jar` Ä‘á»ƒ cháº¡y trÃªn EC2 |
+| Frontend React/Vite | Build thÃ nh static files Ä‘á»ƒ upload lÃªn S3 |
+| RDS SQL Server | Database lÆ°u user, sáº£n pháº©m, giá» hÃ ng, Ä‘Æ¡n hÃ ng |
+| VNPay Sandbox | Kiá»ƒm thá»­ luá»“ng thanh toÃ¡n |
 
-#### Các port cần dùng
+#### CÃ¡c port cáº§n dÃ¹ng
 
-| Port | Mục đích |
+| Port | Má»¥c Ä‘Ã­ch |
 |---|---|
-| 22 | SSH vào EC2 |
+| 22 | SSH vÃ o EC2 |
 | 8080 | Backend Spring Boot public API |
-| 1433 | EC2 kết nối Amazon RDS SQL Server |
-| 80/443 | HTTP/HTTPS nếu mở rộng thêm domain hoặc reverse proxy |
+| 1433 | EC2 káº¿t ná»‘i Amazon RDS SQL Server |
+| 80/443 | HTTP/HTTPS náº¿u má»Ÿ rá»™ng thÃªm domain hoáº·c reverse proxy |
 
 {{% notice note %}}
-Trong các file cấu hình và câu lệnh demo, không nên ghi trực tiếp mật khẩu thật. Nên dùng placeholder như `<DB_PASSWORD>`, `<JWT_SECRET>` hoặc lưu trong file `.env` trên EC2.
+Trong cÃ¡c file cáº¥u hÃ¬nh vÃ  cÃ¢u lá»‡nh demo, khÃ´ng nÃªn ghi trá»±c tiáº¿p máº­t kháº©u tháº­t. NÃªn dÃ¹ng placeholder nhÆ° `<DB_PASSWORD>`, `<JWT_SECRET>` hoáº·c lÆ°u trong file `.env` trÃªn EC2.
 {{% /notice %}}
+

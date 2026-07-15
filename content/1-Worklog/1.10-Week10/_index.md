@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 10"
 date: 2026-07-01
 weight: 10
@@ -40,3 +40,4 @@ pre: " <b> 1.10. </b> "
 | 000039 - DynamoDB Immersion Day | [https://000039.awsstudygroup.com/](https://000039.awsstudygroup.com/) | NoSQL and DynamoDB |
 | 000040 - Glue and Athena Analysis | [https://000040.awsstudygroup.com/](https://000040.awsstudygroup.com/) | Analytics with Glue/Athena |
 | 000043 - Data Migration | [https://000043.awsstudygroup.com/](https://000043.awsstudygroup.com/) | Schema conversion and migration |
+

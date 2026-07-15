@@ -1,85 +1,86 @@
----
-title: "Triển khai Backend Spring Boot trên Amazon EC2"
+﻿---
+title: "Triá»ƒn khai Backend Spring Boot trÃªn Amazon EC2"
 date: 2026-07-01
 weight: 3
 chapter: false
 pre: " <b> 5.3. </b> "
 ---
 
-# Triển khai Backend Spring Boot trên Amazon EC2
+# Triá»ƒn khai Backend Spring Boot trÃªn Amazon EC2
 
-Ở bước này, backend Spring Boot của dự án được triển khai lên Amazon EC2. EC2 đóng vai trò là server chạy ứng dụng backend, tiếp nhận request từ frontend và kết nối tới database RDS.
+á»ž bÆ°á»›c nÃ y, backend Spring Boot cá»§a dá»± Ã¡n Ä‘Æ°á»£c triá»ƒn khai lÃªn Amazon EC2. EC2 Ä‘Ã³ng vai trÃ² lÃ  server cháº¡y á»©ng dá»¥ng backend, tiáº¿p nháº­n request tá»« frontend vÃ  káº¿t ná»‘i tá»›i database RDS.
 
-#### 1. Khởi tạo EC2 Instance
+#### 1. Khá»Ÿi táº¡o EC2 Instance
 
-Khởi tạo EC2 Instance để triển khai backend Spring Boot của dự án.
+Khá»Ÿi táº¡o EC2 Instance Ä‘á»ƒ triá»ƒn khai backend Spring Boot cá»§a dá»± Ã¡n.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-01-ec2-instance.png" alt="Khởi tạo EC2 Instance" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Khởi tạo EC2 Instance</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-01-ec2-instance.png" alt="Khá»Ÿi táº¡o EC2 Instance" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Khá»Ÿi táº¡o EC2 Instance</em></p>
 
-#### 2. Cấu hình Security Group cho EC2
+#### 2. Cáº¥u hÃ¬nh Security Group cho EC2
 
-Cấu hình Security Group cho EC2. Port `22` dùng để SSH, port `8080` dùng để chạy backend Spring Boot, port `80/443` dùng cho HTTP và HTTPS nếu cần mở rộng.
+Cáº¥u hÃ¬nh Security Group cho EC2. Port `22` dÃ¹ng Ä‘á»ƒ SSH, port `8080` dÃ¹ng Ä‘á»ƒ cháº¡y backend Spring Boot, port `80/443` dÃ¹ng cho HTTP vÃ  HTTPS náº¿u cáº§n má»Ÿ rá»™ng.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-02-security-group-ec2.png" alt="Cấu hình Security Group cho EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Cấu hình Security Group cho EC2</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-02-security-group-ec2.png" alt="Cáº¥u hÃ¬nh Security Group cho EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Cáº¥u hÃ¬nh Security Group cho EC2</em></p>
 
-#### 3. Kết nối EC2 bằng SSH
+#### 3. Káº¿t ná»‘i EC2 báº±ng SSH
 
-Kết nối thành công vào EC2 thông qua SSH để cài đặt môi trường và triển khai backend.
+Káº¿t ná»‘i thÃ nh cÃ´ng vÃ o EC2 thÃ´ng qua SSH Ä‘á»ƒ cÃ i Ä‘áº·t mÃ´i trÆ°á»ng vÃ  triá»ƒn khai backend.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-03-ssh-connection.png" alt="Kết nối SSH vào EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Kết nối SSH vào EC2</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-03-ssh-connection.png" alt="Káº¿t ná»‘i SSH vÃ o EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Káº¿t ná»‘i SSH vÃ o EC2</em></p>
 
-Ví dụ lệnh SSH:
+VÃ­ dá»¥ lá»‡nh SSH:
 
 ```bash
 ssh -i "backend.pem" ubuntu@13.223.11.215
 ```
 
-#### 4. Cài đặt Java 17
+#### 4. CÃ i Ä‘áº·t Java 17
 
-Cài đặt Java 17 trên EC2 để chạy ứng dụng Spring Boot.
+CÃ i Ä‘áº·t Java 17 trÃªn EC2 Ä‘á»ƒ cháº¡y á»©ng dá»¥ng Spring Boot.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-04-java17.png" alt="Kiểm tra Java 17 trên EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Kiểm tra Java 17 trên EC2</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-04-java17.png" alt="Kiá»ƒm tra Java 17 trÃªn EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Kiá»ƒm tra Java 17 trÃªn EC2</em></p>
 
-#### 5. Build backend bằng Maven
+#### 5. Build backend báº±ng Maven
 
-Build backend Spring Boot thành công bằng Maven. File `.jar` được tạo trong thư mục `target` để chuẩn bị triển khai lên Amazon EC2.
+Build backend Spring Boot thÃ nh cÃ´ng báº±ng Maven. File `.jar` Ä‘Æ°á»£c táº¡o trong thÆ° má»¥c `target` Ä‘á»ƒ chuáº©n bá»‹ triá»ƒn khai lÃªn Amazon EC2.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-05-maven-build.png" alt="Build backend bằng Maven" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Build backend bằng Maven</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-05-maven-build.png" alt="Build backend báº±ng Maven" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Build backend báº±ng Maven</em></p>
 
-Ví dụ lệnh build:
+VÃ­ dá»¥ lá»‡nh build:
 
 ```bash
 ./mvnw clean package -DskipTests
 ```
 
-#### 6. Kiểm tra file `.jar` sau khi build
+#### 6. Kiá»ƒm tra file `.jar` sau khi build
 
-File `.jar` được tạo sau quá trình build, đây là artifact dùng để deploy backend lên EC2.
+File `.jar` Ä‘Æ°á»£c táº¡o sau quÃ¡ trÃ¬nh build, Ä‘Ã¢y lÃ  artifact dÃ¹ng Ä‘á»ƒ deploy backend lÃªn EC2.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-06-target-jar.png" alt="File JAR trong thư mục target" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>File JAR trong thư mục target</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-06-target-jar.png" alt="File JAR trong thÆ° má»¥c target" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>File JAR trong thÆ° má»¥c target</em></p>
 
-#### 7. Upload file `.jar` lên EC2
+#### 7. Upload file `.jar` lÃªn EC2
 
-Upload file backend Spring Boot `.jar` từ máy local lên EC2 thành công bằng SCP. File được đổi tên thành `app.jar` để dễ quản lý khi chạy ứng dụng trên server.
+Upload file backend Spring Boot `.jar` tá»« mÃ¡y local lÃªn EC2 thÃ nh cÃ´ng báº±ng SCP. File Ä‘Æ°á»£c Ä‘á»•i tÃªn thÃ nh `app.jar` Ä‘á»ƒ dá»… quáº£n lÃ½ khi cháº¡y á»©ng dá»¥ng trÃªn server.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-07-upload-app-jar.png" alt="Upload app.jar lên EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Upload app.jar lên EC2</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-07-upload-app-jar.png" alt="Upload app.jar lÃªn EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Upload app.jar lÃªn EC2</em></p>
 
-Ví dụ lệnh upload:
+VÃ­ dá»¥ lá»‡nh upload:
 
 ```bash
 scp -i "backend.pem" target/clothing-store-backend-0.0.1-SNAPSHOT.jar ubuntu@13.223.11.215:/home/ubuntu/clothing-store/app.jar
 ```
 
-#### 8. Tạo file `.env` trên EC2
+#### 8. Táº¡o file `.env` trÃªn EC2
 
-Tạo file `.env` trên EC2 để lưu các biến môi trường cần thiết cho backend như cấu hình RDS, JWT, email, lưu trữ ảnh và VNPay. File `.env` được đặt cùng thư mục với `app.jar` để Spring Boot có thể đọc cấu hình khi khởi động.
+Táº¡o file `.env` trÃªn EC2 Ä‘á»ƒ lÆ°u cÃ¡c biáº¿n mÃ´i trÆ°á»ng cáº§n thiáº¿t cho backend nhÆ° cáº¥u hÃ¬nh RDS, JWT, email, lÆ°u trá»¯ áº£nh vÃ  VNPay. File `.env` Ä‘Æ°á»£c Ä‘áº·t cÃ¹ng thÆ° má»¥c vá»›i `app.jar` Ä‘á»ƒ Spring Boot cÃ³ thá»ƒ Ä‘á»c cáº¥u hÃ¬nh khi khá»Ÿi Ä‘á»™ng.
 
-<p class="workshop-img"><img src="/aws/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-08-env-file.png" alt="Tạo file .env trên EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Tạo file .env trên EC2</em></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-08-env-file.png" alt="Táº¡o file .env trÃªn EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Táº¡o file .env trÃªn EC2</em></p>
+

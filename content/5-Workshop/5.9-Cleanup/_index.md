@@ -1,4 +1,4 @@
----
+﻿---
 title: "Clean up resources"
 date: 2026-07-01
 weight: 9
@@ -37,15 +37,16 @@ aws ec2 start-instances --instance-ids $INSTANCE_ID --region $REGION --profile $
 When starting a demo:
 
 ```text
-Start RDS → Start EC2 → check backend service → access the website
+Start RDS â†’ Start EC2 â†’ check backend service â†’ access the website
 ```
 
 When not using the system:
 
 ```text
-Stop EC2 → Stop RDS
+Stop EC2 â†’ Stop RDS
 ```
 
 {{% notice warning %}}
 RDS may automatically restart after a temporary stop period. Check Billing, Credits, and Budgets regularly to control costs.
 {{% /notice %}}
+

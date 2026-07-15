@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 1"
 date: 2026-07-01
 weight: 1
@@ -40,3 +40,4 @@ pre: " <b> 1.1. </b> "
 | 000002 - IAM Access Control | [https://000002.awsstudygroup.com/](https://000002.awsstudygroup.com/) | IAM group, user, policy, role |
 | 000007 - AWS Budgets | [https://000007.awsstudygroup.com/](https://000007.awsstudygroup.com/) | Budget and cost alerts |
 | 000011 - AWS CLI | [https://000011.awsstudygroup.com/](https://000011.awsstudygroup.com/) | AWS CLI setup |
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 2"
 date: 2026-07-01
 weight: 2
@@ -39,3 +39,4 @@ pre: " <b> 1.2. </b> "
 | 000003 - Amazon VPC and Site-to-Site VPN | [https://000003.awsstudygroup.com/](https://000003.awsstudygroup.com/) | VPC, subnet, route table, security |
 | 000004 - Amazon EC2 | [https://000004.awsstudygroup.com/](https://000004.awsstudygroup.com/) | Linux/Windows EC2 and connection |
 | 000032 - EC2 Right-Sizing | [https://000032.awsstudygroup.com/](https://000032.awsstudygroup.com/) | Instance sizing basics |
+

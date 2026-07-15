@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 9"
 date: 2026-07-01
 weight: 9
@@ -39,3 +39,4 @@ pre: " <b> 1.9. </b> "
 | 000023 - Deploy to EC2 with CodePipeline | [https://000023.awsstudygroup.com/](https://000023.awsstudygroup.com/) | CodePipeline, CodeBuild, CodeDeploy |
 | 000024 - Storage Gateway | [https://000024.awsstudygroup.com/](https://000024.awsstudygroup.com/) | File Storage Gateway |
 | 000025 - Amazon FSx for Windows File Server | [https://000025.awsstudygroup.com/](https://000025.awsstudygroup.com/) | Managed Windows file shares |
+

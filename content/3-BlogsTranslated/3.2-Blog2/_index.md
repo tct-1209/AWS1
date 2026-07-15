@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 2 - Scaling a system is not just adding EC2"
 date: 2026-07-01
 weight: 2
@@ -16,7 +16,7 @@ A system can use an **Auto Scaling Group** to automatically increase or decrease
 
 ## Shared post screenshot
 
-<img src="/aws/images/3-BlogsTranslated/blog-2.png" alt="Blog 2 - Scaling a system is not just adding EC2" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
+<img src="/AWS/images/3-BlogsTranslated/blog-2.png" alt="Blog 2 - Scaling a system is not just adding EC2" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
 ## What I learned
 
@@ -33,3 +33,4 @@ At the moment, SUMMER-STORE runs the Spring Boot backend on a single EC2 instanc
 ## Shared post link
 
 [Facebook group post](https://www.facebook.com/groups/awsstudygroupfcj/?multi_permalinks=2209334513164842&notif_id=1783618764716437&notif_t=feedback_reaction_generic&ref=notif)
+

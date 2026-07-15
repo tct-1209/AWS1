@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 11"
 date: 2026-07-01
 weight: 11
@@ -40,3 +40,4 @@ pre: " <b> 1.11. </b> "
 | 000027 - Tags and Resource Groups | [https://000027.awsstudygroup.com/](https://000027.awsstudygroup.com/) | Tagging and resource groups |
 | 000028 - IAM with Resource Tags | [https://000028.awsstudygroup.com/](https://000028.awsstudygroup.com/) | Tag-based access control |
 | 000042 - Savings Plan and Reserved Instances | [https://000042.awsstudygroup.com/](https://000042.awsstudygroup.com/) | Long-term cost optimization |
+

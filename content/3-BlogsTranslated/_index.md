@@ -1,4 +1,4 @@
----
+﻿---
 title: "Translated Blogs"
 date: 2026-07-01
 weight: 3
@@ -20,3 +20,4 @@ This blog highlights that scaling is not only about adding more EC2 instances. A
 
 ### [Blog 3 - Lessons learned from scaling to 1 million Lambda functions](3.3-Blog3/)
 This blog summarizes architectural lessons from operating a serverless system at very large scale, including event-driven design, queues, DLQs, service limits, observability, and distributed-system operations.
+

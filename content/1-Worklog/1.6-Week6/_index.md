@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 6"
 date: 2026-07-01
 weight: 6
@@ -39,3 +39,4 @@ pre: " <b> 1.6. </b> "
 | 000015 - Deploy Application on Docker | [https://000015.awsstudygroup.com/](https://000015.awsstudygroup.com/) | Docker, Compose, ECR |
 | 000016 - Deploy on ECS | [https://000016.awsstudygroup.com/](https://000016.awsstudygroup.com/) | ECS Cluster, Task Definition, ALB |
 | 000017 - CI/CD with ECS Container | [https://000017.awsstudygroup.com/](https://000017.awsstudygroup.com/) | CI/CD for container apps |
+

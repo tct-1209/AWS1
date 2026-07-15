@@ -1,42 +1,43 @@
----
-title: "Worklog Tuần 7"
+﻿---
+title: "Worklog Tuáº§n 7"
 date: 2026-07-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-# Worklog Tuần 7: Bảo mật ứng dụng và quản trị quyền truy cập
+# Worklog Tuáº§n 7: Báº£o máº­t á»©ng dá»¥ng vÃ  quáº£n trá»‹ quyá»n truy cáº­p
 
-**Thời gian thực hiện:** 01/06/2026 - 07/06/2026
+**Thá»i gian thá»±c hiá»‡n:** 01/06/2026 - 07/06/2026
 
-## 1. Mục tiêu tuần
+## 1. Má»¥c tiÃªu tuáº§n
 
-- Tìm hiểu AWS WAF và cách bảo vệ web application.
-- Nắm vai trò Security Hub, KMS và IAM condition trong bảo mật.
-- Thực hành tư duy kiểm soát quyền theo tag và role.
+- TÃ¬m hiá»ƒu AWS WAF vÃ  cÃ¡ch báº£o vá»‡ web application.
+- Náº¯m vai trÃ² Security Hub, KMS vÃ  IAM condition trong báº£o máº­t.
+- Thá»±c hÃ nh tÆ° duy kiá»ƒm soÃ¡t quyá»n theo tag vÃ  role.
 
-## 2. Chi tiết công việc triển khai
+## 2. Chi tiáº¿t cÃ´ng viá»‡c triá»ƒn khai
 
-| Thứ | Thời gian | Nội dung công việc |
+| Thá»© | Thá»i gian | Ná»™i dung cÃ´ng viá»‡c |
 | --- | --- | --- |
-| Thứ 2 | 01/06/2026 | Tìm hiểu AWS WAF, Web ACL, managed rules và custom rules cho ứng dụng web. |
-| Thứ 3 | 02/06/2026 | Đọc tổng quan Security Hub để hiểu cách tập trung phát hiện và theo dõi vấn đề bảo mật. |
-| Thứ 4 | 03/06/2026 | Nghiên cứu mã hóa dữ liệu với AWS KMS và nguyên tắc quản lý key. |
-| Thứ 5 | 04/06/2026 | Tìm hiểu IAM Role & Condition để kiểm soát quyền theo điều kiện truy cập. |
-| Thứ 6 | 05/06/2026 | Tổng hợp các thực hành bảo mật áp dụng cho dự án web: rule inbound, token, log và phân quyền. |
+| Thá»© 2 | 01/06/2026 | TÃ¬m hiá»ƒu AWS WAF, Web ACL, managed rules vÃ  custom rules cho á»©ng dá»¥ng web. |
+| Thá»© 3 | 02/06/2026 | Äá»c tá»•ng quan Security Hub Ä‘á»ƒ hiá»ƒu cÃ¡ch táº­p trung phÃ¡t hiá»‡n vÃ  theo dÃµi váº¥n Ä‘á» báº£o máº­t. |
+| Thá»© 4 | 03/06/2026 | NghiÃªn cá»©u mÃ£ hÃ³a dá»¯ liá»‡u vá»›i AWS KMS vÃ  nguyÃªn táº¯c quáº£n lÃ½ key. |
+| Thá»© 5 | 04/06/2026 | TÃ¬m hiá»ƒu IAM Role & Condition Ä‘á»ƒ kiá»ƒm soÃ¡t quyá»n theo Ä‘iá»u kiá»‡n truy cáº­p. |
+| Thá»© 6 | 05/06/2026 | Tá»•ng há»£p cÃ¡c thá»±c hÃ nh báº£o máº­t Ã¡p dá»¥ng cho dá»± Ã¡n web: rule inbound, token, log vÃ  phÃ¢n quyá»n. |
 
-## 3. Kết quả đạt được
+## 3. Káº¿t quáº£ Ä‘áº¡t Ä‘Æ°á»£c
 
-- Hiểu thêm cách bảo vệ ứng dụng web khi chạy trên AWS.
-- Nắm vai trò của mã hóa và kiểm soát quyền theo điều kiện.
-- Có checklist bảo mật để áp dụng vào dự án thực tập.
+- Hiá»ƒu thÃªm cÃ¡ch báº£o vá»‡ á»©ng dá»¥ng web khi cháº¡y trÃªn AWS.
+- Náº¯m vai trÃ² cá»§a mÃ£ hÃ³a vÃ  kiá»ƒm soÃ¡t quyá»n theo Ä‘iá»u kiá»‡n.
+- CÃ³ checklist báº£o máº­t Ä‘á»ƒ Ã¡p dá»¥ng vÃ o dá»± Ã¡n thá»±c táº­p.
 
-## 4. Nguồn tài liệu tham khảo
+## 4. Nguá»“n tÃ i liá»‡u tham kháº£o
 
-| Nguồn | Đường dẫn | Nội dung tham khảo |
+| Nguá»“n | ÄÆ°á»ng dáº«n | Ná»™i dung tham kháº£o |
 | --- | --- | --- |
 | 000026 - AWS WAF | [https://000026.awsstudygroup.com/](https://000026.awsstudygroup.com/) | Web ACL and WAF rules |
 | 000018 - AWS Security Hub | [https://000018.awsstudygroup.com/](https://000018.awsstudygroup.com/) | Security findings |
 | 000033 - AWS KMS | [https://000033.awsstudygroup.com/](https://000033.awsstudygroup.com/) | Encryption at rest |
 | 000044 - IAM Role & Condition | [https://000044.awsstudygroup.com/](https://000044.awsstudygroup.com/) | Conditional access |
+

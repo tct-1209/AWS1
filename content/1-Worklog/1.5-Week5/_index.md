@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 5"
 date: 2026-07-01
 weight: 5
@@ -39,3 +39,4 @@ pre: " <b> 1.5. </b> "
 | 000037 - AWS CloudFormation | [https://000037.awsstudygroup.com/](https://000037.awsstudygroup.com/) | CloudFormation stacks and templates |
 | 000038 - CDK Basic | [https://000038.awsstudygroup.com/](https://000038.awsstudygroup.com/) | AWS CDK basics |
 | 000049 - AWS Cloud9 | [https://000049.awsstudygroup.com/](https://000049.awsstudygroup.com/) | Cloud-based IDE |
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sharing and Feedback"
 date: 2026-07-01
 weight: 7
@@ -52,3 +52,4 @@ Yes. If I have the opportunity, I would like to continue learning more about Dev
 ## 7.6. Appreciation
 
 I sincerely thank FCAJ, the mentors, and the community members for supporting me throughout the internship. The knowledge and experience I gained helped me become more confident when working with AWS and gave me clearer direction for developing my Cloud/DevOps skills.
+

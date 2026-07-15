@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 3"
 date: 2026-07-01
 weight: 3
@@ -39,3 +39,4 @@ pre: " <b> 1.3. </b> "
 | 000005 - Amazon RDS | [https://000005.awsstudygroup.com/](https://000005.awsstudygroup.com/) | RDS, DB subnet group, backup and restore |
 | 000013 - AWS Backup | [https://000013.awsstudygroup.com/](https://000013.awsstudygroup.com/) | Backup strategy |
 | 000043 - Database Schema Conversion & Migration | [https://000043.awsstudygroup.com/](https://000043.awsstudygroup.com/) | Database migration concepts |
+

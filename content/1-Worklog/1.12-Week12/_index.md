@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 12"
 date: 2026-07-01
 weight: 12
@@ -41,3 +41,4 @@ pre: " <b> 1.12. </b> "
 | 000045 - Amazon Lightsail | [https://000045.awsstudygroup.com/](https://000045.awsstudygroup.com/) | Simple app deployment |
 | 000046 - Lightsail Container | [https://000046.awsstudygroup.com/](https://000046.awsstudygroup.com/) | Container deployment on Lightsail |
 | 000050 - Migrating the Monolith | [https://000050.awsstudygroup.com/](https://000050.awsstudygroup.com/) | Migration and modernization overview |
+

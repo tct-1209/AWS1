@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 8"
 date: 2026-07-01
 weight: 8
@@ -39,3 +39,4 @@ pre: " <b> 1.8. </b> "
 | 000019 - VPC Peering | [https://000019.awsstudygroup.com/](https://000019.awsstudygroup.com/) | VPC peering and DNS |
 | 000020 - AWS Transit Gateway | [https://000020.awsstudygroup.com/](https://000020.awsstudygroup.com/) | Transit Gateway and attachments |
 | 000010 - Route 53 Resolver | [https://000010.awsstudygroup.com/](https://000010.awsstudygroup.com/) | Hybrid DNS concepts |
+

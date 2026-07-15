@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Week 7"
 date: 2026-07-01
 weight: 7
@@ -40,3 +40,4 @@ pre: " <b> 1.7. </b> "
 | 000018 - AWS Security Hub | [https://000018.awsstudygroup.com/](https://000018.awsstudygroup.com/) | Security findings |
 | 000033 - AWS KMS | [https://000033.awsstudygroup.com/](https://000033.awsstudygroup.com/) | Encryption at rest |
 | 000044 - IAM Role & Condition | [https://000044.awsstudygroup.com/](https://000044.awsstudygroup.com/) | Conditional access |
+

@@ -1,41 +1,42 @@
----
-title: "Báo cáo thực tập"
+﻿---
+title: "BÃ¡o cÃ¡o thá»±c táº­p"
 date: 2026-07-01
 weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
+# BÃ¡o cÃ¡o thá»±c táº­p
 
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Trần Châu Trinh
+### ThÃ´ng tin sinh viÃªn:
+&emsp; **Há» vÃ  tÃªn:** Tráº§n ChÃ¢u Trinh
 
-&emsp; **Số điện thoại:** 0365636878
+&emsp; **Sá»‘ Ä‘iá»‡n thoáº¡i:** 0365636878
 
 &emsp; **Email:** tranchautrinh.2004@gmail.com
 
-&emsp; **Trường:** Đại học Công nghệ TP.HCM
+&emsp; **TrÆ°á»ng:** Äáº¡i há»c CÃ´ng nghá»‡ TP.HCM
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **NgÃ nh:** CÃ´ng nghá»‡ thÃ´ng tin
 
-&emsp; **Lớp:** 22DTHE2
+&emsp; **Lá»›p:** 22DTHE2
 
-&emsp; **Công ty thực tập:** Bootcamp First Cloud AI Journey
+&emsp; **CÃ´ng ty thá»±c táº­p:** Bootcamp First Cloud AI Journey
 
-&emsp; **Vị trí thực tập:** Cloud Engineer Intern
+&emsp; **Vá»‹ trÃ­ thá»±c táº­p:** Cloud Engineer Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 12/07/2026
+&emsp; **Thá»i gian thá»±c táº­p:** Tá»« ngÃ y 20/04/2026 Ä‘áº¿n ngÃ y 12/07/2026
 
 <div style="text-align:center; margin: 24px 0;">
-  <img src="/aws/images/avatar.jpg" alt="Ảnh đại diện Trần Châu Trinh" style="max-width:260px; width:100%; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />
+  <img src="/AWS/images/avatar.jpg" alt="áº¢nh Ä‘áº¡i diá»‡n Tráº§n ChÃ¢u Trinh" style="max-width:260px; width:100%; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />
 </div>
 
-### Nội dung báo cáo
+### Ná»™i dung bÃ¡o cÃ¡o
 
-1.  [Nhật ký công việc](1-Worklog/)
-2.  [Bản đề xuất](2-Proposal/)
-3.  [Các bài blogs đã dịch](3-BlogsTranslated/)
-4.  [Các events đã tham gia](4-EventParticipated/)
+1.  [Nháº­t kÃ½ cÃ´ng viá»‡c](1-Worklog/)
+2.  [Báº£n Ä‘á» xuáº¥t](2-Proposal/)
+3.  [CÃ¡c bÃ i blogs Ä‘Ã£ dá»‹ch](3-BlogsTranslated/)
+4.  [CÃ¡c events Ä‘Ã£ tham gia](4-EventParticipated/)
 5.  [Workshop](5-Workshop/)
-6.  [Tự đánh giá](6-Self-evaluation/)
-7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+6.  [Tá»± Ä‘Ã¡nh giÃ¡](6-Self-evaluation/)
+7.  [Chia sáº», Ä‘Ã³ng gÃ³p Ã½ kiáº¿n](7-Feedback/)
+
