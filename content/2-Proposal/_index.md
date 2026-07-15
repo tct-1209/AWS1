@@ -124,3 +124,4 @@ After completion, the SUMMER-STORE system is expected to run on AWS with the fol
 
 In the future, the system can be improved by adding **CloudFront** for faster frontend delivery, **Route 53** for a custom domain, **Application Load Balancer** and **Auto Scaling** for backend availability, and CI/CD for automatic build and deployment.
 
+

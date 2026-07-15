@@ -33,3 +33,4 @@ This workshop focuses on deploying the **SUMMER-STORE** e-commerce website to AW
 4. **Amazon EC2 processes business logic** and connects to Amazon RDS for SQL Server to read/write data.
 5. **VNPay Sandbox handles payment**, then redirects/calls back to the backend to update the order status.
 
+

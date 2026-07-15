@@ -42,3 +42,4 @@ pre: " <b> 1.11. </b> "
 | 000042 - Savings Plan and Reserved Instances | [https://000042.awsstudygroup.com/](https://000042.awsstudygroup.com/) | Long-term cost optimization |
 
 
+

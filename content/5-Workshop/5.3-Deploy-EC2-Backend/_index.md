@@ -84,3 +84,4 @@ Create a `.env` file on EC2 to store environment variables required by the backe
 <p class="workshop-img"><img src="/AWS/images/5-Workshop/5.3-Deploy-EC2-Backend/5-3-08-env-file.png" alt="Create the .env file on EC2" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Create the .env file on EC2</em></p>
 
+

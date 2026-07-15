@@ -125,3 +125,4 @@ Sau khi hoàn thành, hệ thống SUMMER-STORE có thể hoạt động trên m
 Trong tương lai, hệ thống có thể được mở rộng bằng cách sử dụng **CloudFront** để tăng tốc frontend, **Route 53** để gắn tên miền riêng, **Application Load Balancer** và **Auto Scaling** để tăng độ sẵn sàng cho backend, cũng như triển khai CI/CD để tự động build và deploy mã nguồn.
 
 
+

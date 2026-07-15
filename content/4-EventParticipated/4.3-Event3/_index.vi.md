@@ -46,3 +46,4 @@ Sau sự kiện, em hiểu rõ hơn về tư duy thiết kế kiến trúc cloud
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-03.jpg" alt="Event evidence image"></p>
 
 
+

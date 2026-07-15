@@ -41,3 +41,4 @@ pre: " <b> 1.7. </b> "
 | 000033 - AWS KMS | [https://000033.awsstudygroup.com/](https://000033.awsstudygroup.com/) | Encryption at rest |
 | 000044 - IAM Role & Condition | [https://000044.awsstudygroup.com/](https://000044.awsstudygroup.com/) | Conditional access |
 
+

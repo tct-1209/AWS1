@@ -28,3 +28,4 @@ Phần này trình bày lại nội dung thực tập theo 12 tuần, giữ nguy
 Mỗi tuần gồm mục tiêu, chi tiết công việc, kết quả đạt được và nguồn tài liệu tham khảo riêng. Phần Worklog không đưa hình ảnh minh chứng để nội dung gọn, dễ đọc hơn.
 
 
+

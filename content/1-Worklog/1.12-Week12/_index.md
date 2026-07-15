@@ -42,3 +42,4 @@ pre: " <b> 1.12. </b> "
 | 000046 - Lightsail Container | [https://000046.awsstudygroup.com/](https://000046.awsstudygroup.com/) | Container deployment on Lightsail |
 | 000050 - Migrating the Monolith | [https://000050.awsstudygroup.com/](https://000050.awsstudygroup.com/) | Migration and modernization overview |
 
+

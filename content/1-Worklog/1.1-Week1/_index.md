@@ -41,3 +41,4 @@ pre: " <b> 1.1. </b> "
 | 000007 - AWS Budgets | [https://000007.awsstudygroup.com/](https://000007.awsstudygroup.com/) | Budget and cost alerts |
 | 000011 - AWS CLI | [https://000011.awsstudygroup.com/](https://000011.awsstudygroup.com/) | AWS CLI setup |
 
+

@@ -58,3 +58,4 @@ Update the `.env` file on EC2 so that the Spring Boot backend connects to Amazon
 Do not publish the real database password in the report or public source code. Use environment variables in `.env` or a secret manager for production deployment.
 {{% /notice %}}
 
+

@@ -34,3 +34,4 @@ The SUMMER-STORE project currently uses a simple architecture: frontend on S3, b
 
 The uploaded Word file does not include a public link for Blog 3.
 
+

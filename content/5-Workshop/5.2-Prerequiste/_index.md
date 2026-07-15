@@ -35,3 +35,4 @@ Before deploying SUMMER-STORE to AWS, prepare the AWS account, frontend and back
 Do not put real passwords directly in report files or demo commands. Use placeholders such as `<DB_PASSWORD>`, `<JWT_SECRET>`, or store secrets in the `.env` file on EC2.
 {{% /notice %}}
 
+

@@ -69,3 +69,4 @@ The React frontend is built and deployed successfully to Amazon S3 Static Websit
 In the current project scope, the frontend is deployed directly with S3 Static Website Hosting. CloudFront and Route 53 can be added later if a custom domain, HTTPS, or CDN is required.
 {{% /notice %}}
 
+

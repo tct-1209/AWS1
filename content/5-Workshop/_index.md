@@ -31,3 +31,4 @@ Users access the website through the frontend hosted with **Amazon S3 Static Web
 8. [Test the full workflow and VNPay payment](5.8-Workflow-Final-Test/)
 9. [Clean up resources](5.9-Cleanup/)
 
+

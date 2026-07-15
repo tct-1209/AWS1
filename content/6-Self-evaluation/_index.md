@@ -36,3 +36,4 @@ In addition, I need to strengthen my troubleshooting process layer by layer. Whe
 Moving forward, I will continue practicing with AWS CLI, CloudWatch Logs, IAM, CI/CD, and resource cleanup workflows to work more proactively, reduce repeated mistakes, and become more confident when presenting results to mentors or team members.
 
 
+

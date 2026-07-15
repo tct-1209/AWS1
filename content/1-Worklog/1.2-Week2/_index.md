@@ -40,3 +40,4 @@ pre: " <b> 1.2. </b> "
 | 000004 - Amazon EC2 | [https://000004.awsstudygroup.com/](https://000004.awsstudygroup.com/) | Linux/Windows EC2 and connection |
 | 000032 - EC2 Right-Sizing | [https://000032.awsstudygroup.com/](https://000032.awsstudygroup.com/) | Instance sizing basics |
 
+

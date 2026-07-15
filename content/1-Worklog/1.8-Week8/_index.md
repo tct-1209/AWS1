@@ -40,3 +40,4 @@ pre: " <b> 1.8. </b> "
 | 000020 - AWS Transit Gateway | [https://000020.awsstudygroup.com/](https://000020.awsstudygroup.com/) | Transit Gateway and attachments |
 | 000010 - Route 53 Resolver | [https://000010.awsstudygroup.com/](https://000010.awsstudygroup.com/) | Hybrid DNS concepts |
 
+

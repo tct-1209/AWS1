@@ -41,3 +41,4 @@ pre: " <b> 1.10. </b> "
 | 000040 - Glue and Athena Analysis | [https://000040.awsstudygroup.com/](https://000040.awsstudygroup.com/) | Analytics with Glue/Athena |
 | 000043 - Data Migration | [https://000043.awsstudygroup.com/](https://000043.awsstudygroup.com/) | Schema conversion and migration |
 
+

@@ -64,3 +64,4 @@ sudo systemctl status clothing-store-backend --no-pager
 Khi service hiển thị `active (running)`, backend có thể tiếp tục hoạt động kể cả khi đóng terminal SSH.
 
 
+

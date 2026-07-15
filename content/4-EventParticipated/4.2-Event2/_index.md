@@ -51,3 +51,4 @@ Event 2 expanded my knowledge of Docker, web application security, WebSockets, G
 
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.2-Event2/event2-proof-01.jpg" alt="Event evidence image"></p>
 
+

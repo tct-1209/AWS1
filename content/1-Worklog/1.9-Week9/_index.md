@@ -40,3 +40,4 @@ pre: " <b> 1.9. </b> "
 | 000024 - Storage Gateway | [https://000024.awsstudygroup.com/](https://000024.awsstudygroup.com/) | File Storage Gateway |
 | 000025 - Amazon FSx for Windows File Server | [https://000025.awsstudygroup.com/](https://000025.awsstudygroup.com/) | Managed Windows file shares |
 
+

@@ -40,3 +40,4 @@ pre: " <b> 1.3. </b> "
 | 000013 - AWS Backup | [https://000013.awsstudygroup.com/](https://000013.awsstudygroup.com/) | Backup strategy |
 | 000043 - Database Schema Conversion & Migration | [https://000043.awsstudygroup.com/](https://000043.awsstudygroup.com/) | Database migration concepts |
 
+
