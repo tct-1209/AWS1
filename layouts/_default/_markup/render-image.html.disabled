@@ -1,0 +1,4 @@
+{{- $src := .Destination -}}
+{{- $clean := strings.TrimPrefix "/" $src -}}
+{{- $rel := $src | relURL -}}
+<img src="{{ $rel | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} style="max-width:100%; height:auto; display:block; margin: 1rem auto;" onerror="if(!this.dataset.fallback){this.dataset.fallback='1'; this.src='/' + '{{ $clean }}';}" />
