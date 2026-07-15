@@ -16,7 +16,7 @@ Services such as **Amazon EventBridge**, **Amazon SQS**, **AWS Lambda**, and **D
 
 ## Shared post screenshot
 
-<img src="/AWS/images/3-BlogsTranslated/blog-3.png" alt="Blog 3 - Lessons learned from scaling to 1 million Lambda functions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
+<img src="/AWS1/images/3-BlogsTranslated/blog-3.png" alt="Blog 3 - Lessons learned from scaling to 1 million Lambda functions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
 ## What I learned
 
@@ -33,5 +33,6 @@ The SUMMER-STORE project currently uses a simple architecture: frontend on S3, b
 ## Shared post link
 
 The uploaded Word file does not include a public link for Blog 3.
+
 
 

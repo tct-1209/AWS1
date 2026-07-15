@@ -41,8 +41,9 @@ After the event, I gained a clearer understanding of cloud architecture thinking
 
 ### Evidence images
 
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-01.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-02.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-03.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.3-Event3/event3-proof-01.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.3-Event3/event3-proof-02.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.3-Event3/event3-proof-03.jpg" alt="Event evidence image"></p>
+
 
 

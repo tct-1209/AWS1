@@ -27,7 +27,7 @@ chapter: false
 &emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 12/07/2026
 
 <div style="text-align:center; margin: 24px 0;">
-  <img src="/AWS/images/avatar.jpg" alt="Ảnh đại diện Trần Châu Trinh" style="max-width:260px; width:100%; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />
+  <img src="/AWS1/images/avatar.jpg" alt="Ảnh đại diện Trần Châu Trinh" style="max-width:260px; width:100%; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />
 </div>
 
 ### Nội dung báo cáo
@@ -39,6 +39,7 @@ chapter: false
 5.  [Workshop](5-Workshop/)
 6.  [Tự đánh giá](6-Self-evaluation/)
 7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+
 
 
 

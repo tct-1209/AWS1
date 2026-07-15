@@ -41,7 +41,7 @@ Phạm vi đề tài tập trung vào triển khai hệ thống ở mức demo/t
 
 Người dùng hoặc admin truy cập website thông qua trình duyệt. Frontend được host trên **Amazon S3 Static Website Hosting**. Sau khi tải giao diện về trình duyệt, ứng dụng React/Vite gọi API tới backend thông qua **Elastic IP** của EC2. Backend Spring Boot chạy trên **Amazon EC2**, xử lý nghiệp vụ và kết nối tới **Amazon RDS SQL Server** để đọc/ghi dữ liệu. Với chức năng thanh toán, backend tạo URL thanh toán VNPay Sandbox và nhận redirect/callback để cập nhật trạng thái đơn hàng.
 
-<p class="workshop-img"><img src="/AWS/images/2-Proposal/summer-store-workflow.png" alt="Workflow triển khai SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/2-Proposal/summer-store-workflow.png" alt="Workflow triển khai SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Workflow triển khai SUMMER-STORE trên AWS</em></p>
 
 ## 6. Các dịch vụ AWS sử dụng
@@ -65,21 +65,21 @@ Người dùng hoặc admin truy cập website thông qua trình duyệt. Fronte
 
 Frontend được phát triển bằng React/Vite. Sau khi build, các file static trong thư mục `dist` được upload lên S3 bucket frontend để người dùng có thể truy cập website qua S3 website endpoint.
 
-<p class="workshop-img"><img src="/AWS/images/2-Proposal/s3-frontend-success.png" alt="Frontend triển khai trên Amazon S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/2-Proposal/s3-frontend-success.png" alt="Frontend triển khai trên Amazon S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Frontend SUMMER-STORE sau khi triển khai lên Amazon S3</em></p>
 
 ### 7.2 Backend
 
 Backend được phát triển bằng Spring Boot. Ứng dụng được build thành file `.jar`, upload lên EC2 và chạy bằng Java 17. Backend tiếp nhận request từ frontend, xử lý nghiệp vụ và trả dữ liệu API cho website.
 
-<p class="workshop-img"><img src="/AWS/images/2-Proposal/ec2-backend-instance.png" alt="Amazon EC2 chạy backend Spring Boot" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/2-Proposal/ec2-backend-instance.png" alt="Amazon EC2 chạy backend Spring Boot" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Amazon EC2 được sử dụng để triển khai backend Spring Boot</em></p>
 
 ### 7.3 Database
 
 Database sử dụng Amazon RDS for SQL Server. Backend kết nối đến RDS thông qua JDBC để lưu trữ và truy vấn dữ liệu như tài khoản người dùng, sản phẩm, biến thể sản phẩm, giỏ hàng và đơn hàng.
 
-<p class="workshop-img"><img src="/AWS/images/2-Proposal/rds-sqlserver-available.png" alt="Amazon RDS SQL Server" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/2-Proposal/rds-sqlserver-available.png" alt="Amazon RDS SQL Server" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Amazon RDS SQL Server ở trạng thái Available</em></p>
 
 ### 7.4 Thanh toán
@@ -123,6 +123,7 @@ Sau khi hoàn thành, hệ thống SUMMER-STORE có thể hoạt động trên m
 ## 11. Hướng mở rộng
 
 Trong tương lai, hệ thống có thể được mở rộng bằng cách sử dụng **CloudFront** để tăng tốc frontend, **Route 53** để gắn tên miền riêng, **Application Load Balancer** và **Auto Scaling** để tăng độ sẵn sàng cho backend, cũng như triển khai CI/CD để tự động build và deploy mã nguồn.
+
 
 
 
