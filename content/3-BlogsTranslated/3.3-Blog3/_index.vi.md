@@ -16,7 +16,7 @@ Các thành phần như **Amazon EventBridge**, **Amazon SQS**, **AWS Lambda** v
 
 ## Hình ảnh bài chia sẻ
 
-<img src="/AWS1/images/3-BlogsTranslated/blog-3.png" alt="Blog 3 - Lessons learned from scaling to 1 million Lambda functions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
+<img src="/AWS/images/3-BlogsTranslated/blog-3.png" alt="Blog 3 - Lessons learned from scaling to 1 million Lambda functions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
 ## Điều mình học được
 
@@ -33,7 +33,6 @@ Dự án SUMMER-STORE hiện dùng kiến trúc đơn giản với frontend trê
 ## Link bài chia sẻ
 
 File Word hiện chưa cung cấp link bài chia sẻ cho Blog 3.
-
 
 
 

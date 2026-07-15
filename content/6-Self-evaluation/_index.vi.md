@@ -37,4 +37,3 @@ Trong thời gian tới, em sẽ tiếp tục luyện tập với AWS CLI, Cloud
 
 
 
-

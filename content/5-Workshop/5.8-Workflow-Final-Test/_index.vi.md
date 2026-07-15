@@ -10,7 +10,7 @@ pre: " <b> 5.8. </b> "
 
 Sau khi hoàn tất triển khai frontend, backend và database, tiến hành kiểm thử workflow tổng thể của hệ thống SUMMER-STORE.
 
-<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="Workflow tổng thể SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="Workflow tổng thể SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Workflow tổng thể SUMMER-STORE trên AWS</em></p>
 
 #### Luồng kiểm thử chính
@@ -32,7 +32,6 @@ Sau khi hoàn tất triển khai frontend, backend và database, tiến hành ki
 - Amazon RDS SQL Server lưu trữ được dữ liệu hệ thống.
 - Ảnh sản phẩm được lưu trữ và hiển thị từ Amazon S3.
 - Chức năng đăng nhập, quản lý sản phẩm, tồn kho, đơn hàng và thanh toán VNPay Sandbox được kiểm thử ở mức demo.
-
 
 
 

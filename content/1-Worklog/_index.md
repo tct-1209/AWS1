@@ -28,4 +28,3 @@ This section rewrites the internship worklog across 12 weeks while keeping the o
 Each week includes objectives, implementation details, outcomes, and separate references. Evidence images are not included to keep the Worklog concise and easy to follow.
 
 
-

@@ -1,4 +1,4 @@
-﻿baseURL = "https://tct-1209.github.io/AWS1/"
+baseURL = "https://github.com/tct-1209/AWS1"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -35,10 +35,10 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
 [Languages.vi]
-title = "BÃ¡o cÃ¡o thá»±c táº­p AWS - Tráº§n ChÃ¢u Trinh"
+title = "Báo cáo thực tập AWS - Trần Châu Trinh"
 weight = 2
-languageName = "Tiáº¿ng Viá»‡t"
-label = "Tiáº¿ng Viá»‡t"
+languageName = "Tiếng Việt"
+label = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -50,4 +50,3 @@ weight = 20
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-

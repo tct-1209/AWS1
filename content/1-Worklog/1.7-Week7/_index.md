@@ -42,4 +42,3 @@ pre: " <b> 1.7. </b> "
 | 000044 - IAM Role & Condition | [https://000044.awsstudygroup.com/](https://000044.awsstudygroup.com/) | Conditional access |
 
 
-

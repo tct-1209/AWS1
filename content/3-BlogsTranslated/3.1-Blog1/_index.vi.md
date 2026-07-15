@@ -16,7 +16,7 @@ Giải pháp được đề cập là sử dụng **Amazon EventBridge Scheduler
 
 ## Kiến trúc tham khảo
 
-<img src="/AWS1/images/3-BlogsTranslated/blog-1.png" alt="Blog 1 - Auto Start Stop Amazon RDS with AWS Lambda" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
+<img src="/AWS/images/3-BlogsTranslated/blog-1.png" alt="Blog 1 - Auto Start Stop Amazon RDS with AWS Lambda" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
 ## Điều mình học được
 
@@ -33,7 +33,6 @@ Trong dự án SUMMER-STORE, mình sử dụng **Amazon RDS SQL Server** làm da
 ## Link bài chia sẻ
 
 [Facebook post](https://www.facebook.com/share/p/1BZeHedGDc/)
-
 
 
 

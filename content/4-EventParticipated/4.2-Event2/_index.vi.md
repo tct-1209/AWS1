@@ -49,8 +49,7 @@ Event 2 giúp em mở rộng kiến thức về Docker, bảo mật ứng dụng
 
 ### Một số hình ảnh minh chứng tham gia sự kiện
 
-<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.2-Event2/event2-proof-01.jpg" alt="Event evidence image"></p>
-
+<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.2-Event2/event2-proof-01.jpg" alt="Event evidence image"></p>
 
 
 

@@ -41,4 +41,3 @@ pre: " <b> 1.6. </b> "
 | 000017 - CI/CD with ECS Container | [https://000017.awsstudygroup.com/](https://000017.awsstudygroup.com/) | CI/CD for container apps |
 
 
-

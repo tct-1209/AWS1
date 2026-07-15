@@ -16,7 +16,7 @@ Một hệ thống có thể sử dụng **Auto Scaling Group** để tự độ
 
 ## Hình ảnh bài chia sẻ
 
-<img src="/AWS1/images/3-BlogsTranslated/blog-2.png" alt="Blog 2 - Scale hệ thống không chỉ là thêm EC2" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
+<img src="/AWS/images/3-BlogsTranslated/blog-2.png" alt="Blog 2 - Scale hệ thống không chỉ là thêm EC2" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
 ## Điều mình học được
 
@@ -33,7 +33,6 @@ Hiện tại SUMMER-STORE đang chạy backend Spring Boot trên một EC2 Insta
 ## Link bài chia sẻ
 
 [Facebook group post](https://www.facebook.com/groups/awsstudygroupfcj/?multi_permalinks=2209334513164842&notif_id=1783618764716437&notif_t=feedback_reaction_generic&ref=notif)
-
 
 
 

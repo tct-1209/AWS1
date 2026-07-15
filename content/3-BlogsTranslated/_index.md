@@ -22,4 +22,3 @@ This blog highlights that scaling is not only about adding more EC2 instances. A
 This blog summarizes architectural lessons from operating a serverless system at very large scale, including event-driven design, queues, DLQs, service limits, observability, and distributed-system operations.
 
 
-

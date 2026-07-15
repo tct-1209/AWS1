@@ -41,4 +41,3 @@ pre: " <b> 1.8. </b> "
 | 000010 - Route 53 Resolver | [https://000010.awsstudygroup.com/](https://000010.awsstudygroup.com/) | Hybrid DNS concepts |
 
 
-
