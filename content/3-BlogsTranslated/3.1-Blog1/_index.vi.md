@@ -1,36 +1,37 @@
 ﻿---
-title: "Blog 1 - Tá»‘i Æ°u chi phÃ­ Amazon RDS báº±ng cÃ¡ch tá»± Ä‘á»™ng Start/Stop vá»›i AWS Lambda"
+title: "Blog 1 - Tối ưu chi phí Amazon RDS bằng cách tự động Start/Stop với AWS Lambda"
 date: 2026-07-01
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# AWS Database Blog | Tá»‘i Æ°u chi phÃ­ Amazon RDS báº±ng cÃ¡ch tá»± Ä‘á»™ng Start/Stop vá»›i AWS Lambda
+# AWS Database Blog | Tối ưu chi phí Amazon RDS bằng cách tự động Start/Stop với AWS Lambda
 
-## Ná»™i dung chÃ­nh
+## Nội dung chính
 
-Trong quÃ¡ trÃ¬nh tÃ¬m hiá»ƒu AWS, bÃ i viáº¿t nÃ y giÃºp mÃ¬nh nháº­n ra ráº±ng tá»‘i Æ°u chi phÃ­ lÃ  má»™t pháº§n ráº¥t quan trá»ng khi triá»ƒn khai há»‡ thá»‘ng lÃªn cloud. Vá»›i **Amazon RDS**, náº¿u database váº«n hoáº¡t Ä‘á»™ng trong thá»i gian khÃ´ng sá»­ dá»¥ng, há»‡ thá»‘ng váº«n cÃ³ thá»ƒ phÃ¡t sinh chi phÃ­ khÃ´ng cáº§n thiáº¿t.
+Trong quá trình tìm hiểu AWS, bài viết này giúp mình nhận ra rằng tối ưu chi phí là một phần rất quan trọng khi triển khai hệ thống lên cloud. Với **Amazon RDS**, nếu database vẫn hoạt động trong thời gian không sử dụng, hệ thống vẫn có thể phát sinh chi phí không cần thiết.
 
-Giáº£i phÃ¡p Ä‘Æ°á»£c Ä‘á» cáº­p lÃ  sá»­ dá»¥ng **Amazon EventBridge Scheduler** Ä‘á»ƒ kÃ­ch hoáº¡t cÃ¡c **AWS Lambda Function** theo lá»‹ch. Má»™t Lambda function dÃ¹ng Ä‘á»ƒ stop RDS vÃ o cuá»‘i ngÃ y lÃ m viá»‡c, function cÃ²n láº¡i dÃ¹ng Ä‘á»ƒ start RDS vÃ o Ä‘áº§u ngÃ y hÃ´m sau. CÃ¡c Lambda function nÃ y cáº§n Ä‘Æ°á»£c gÃ¡n **IAM Role** phÃ¹ há»£p Ä‘á»ƒ cÃ³ quyá»n thá»±c hiá»‡n thao tÃ¡c vá»›i RDS.
+Giải pháp được đề cập là sử dụng **Amazon EventBridge Scheduler** để kích hoạt các **AWS Lambda Function** theo lịch. Một Lambda function dùng để stop RDS vào cuối ngày làm việc, function còn lại dùng để start RDS vào đầu ngày hôm sau. Các Lambda function này cần được gán **IAM Role** phù hợp để có quyền thực hiện thao tác với RDS.
 
-## Kiáº¿n trÃºc tham kháº£o
+## Kiến trúc tham khảo
 
 <img src="/AWS/images/3-BlogsTranslated/blog-1.png" alt="Blog 1 - Auto Start Stop Amazon RDS with AWS Lambda" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
-## Äiá»u mÃ¬nh há»c Ä‘Æ°á»£c
+## Điều mình học được
 
-- TÃ i nguyÃªn cloud nÃªn Ä‘Æ°á»£c báº­t/táº¯t theo nhu cáº§u sá»­ dá»¥ng thá»±c táº¿.
-- EventBridge Scheduler phÃ¹ há»£p Ä‘á»ƒ tá»± Ä‘á»™ng hÃ³a cÃ¡c tÃ¡c vá»¥ cháº¡y theo lá»‹ch.
-- Lambda cÃ³ thá»ƒ xá»­ lÃ½ cÃ¡c tÃ¡c vá»¥ váº­n hÃ nh nhá», khÃ´ng cáº§n duy trÃ¬ server riÃªng.
-- IAM Role cáº§n Ä‘Æ°á»£c phÃ¢n quyá»n Ä‘Ãºng Ä‘á»ƒ Lambda cÃ³ thá»ƒ start/stop RDS an toÃ n.
-- Vá»›i mÃ´i trÆ°á»ng há»c táº­p hoáº·c demo, tá»± Ä‘á»™ng hÃ³a viá»‡c start/stop cÃ³ thá»ƒ giÃºp tiáº¿t kiá»‡m credit.
+- Tài nguyên cloud nên được bật/tắt theo nhu cầu sử dụng thực tế.
+- EventBridge Scheduler phù hợp để tự động hóa các tác vụ chạy theo lịch.
+- Lambda có thể xử lý các tác vụ vận hành nhỏ, không cần duy trì server riêng.
+- IAM Role cần được phân quyền đúng để Lambda có thể start/stop RDS an toàn.
+- Với môi trường học tập hoặc demo, tự động hóa việc start/stop có thể giúp tiết kiệm credit.
 
-## LiÃªn há»‡ vá»›i dá»± Ã¡n SUMMER-STORE
+## Liên hệ với dự án SUMMER-STORE
 
-Trong dá»± Ã¡n SUMMER-STORE, mÃ¬nh sá»­ dá»¥ng **Amazon RDS SQL Server** lÃ m database chÃ­nh. Khi khÃ´ng demo hoáº·c khÃ´ng test há»‡ thá»‘ng, viá»‡c stop RDS vÃ  EC2 giÃºp giáº£m chi phÃ­ sá»­ dá»¥ng AWS. BÃ i blog nÃ y gá»£i Ã½ má»™t hÆ°á»›ng má»Ÿ rá»™ng tá»‘t hÆ¡n trong tÆ°Æ¡ng lai: tá»± Ä‘á»™ng hÃ³a viá»‡c báº­t/táº¯t database thay vÃ¬ thao tÃ¡c thá»§ cÃ´ng trÃªn AWS Console.
+Trong dự án SUMMER-STORE, mình sử dụng **Amazon RDS SQL Server** làm database chính. Khi không demo hoặc không test hệ thống, việc stop RDS và EC2 giúp giảm chi phí sử dụng AWS. Bài blog này gợi ý một hướng mở rộng tốt hơn trong tương lai: tự động hóa việc bật/tắt database thay vì thao tác thủ công trên AWS Console.
 
-## Link bÃ i chia sáº»
+## Link bài chia sẻ
 
 [Facebook post](https://www.facebook.com/share/p/1BZeHedGDc/)
+
 

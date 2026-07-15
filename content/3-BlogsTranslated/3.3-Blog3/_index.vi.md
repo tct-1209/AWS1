@@ -8,29 +8,30 @@ pre: " <b> 3.3. </b> "
 
 # AWS Architecture Blog | Lessons learned from scaling to 1 million Lambda functions
 
-## Ná»™i dung chÃ­nh
+## Nội dung chính
 
-BÃ i viáº¿t nÃ y nÃ³i vá» nhá»¯ng bÃ i há»c khi má»™t há»‡ thá»‘ng serverless phÃ¡t triá»ƒn tá»›i quy mÃ´ ráº¥t lá»›n, vá»›i hÆ¡n 1 triá»‡u **AWS Lambda functions**. Äiá»u mÃ¬nh áº¥n tÆ°á»£ng lÃ  váº¥n Ä‘á» scale khÃ´ng chá»‰ náº±m á»Ÿ viá»‡c tÄƒng tÃ i nguyÃªn, mÃ  cÃ²n náº±m á»Ÿ cÃ¡ch thiáº¿t káº¿ kiáº¿n trÃºc vÃ  quáº£n lÃ½ Ä‘á»™ phá»©c táº¡p cá»§a há»‡ thá»‘ng.
+Bài viết này nói về những bài học khi một hệ thống serverless phát triển tới quy mô rất lớn, với hơn 1 triệu **AWS Lambda functions**. Điều mình ấn tượng là vấn đề scale không chỉ nằm ở việc tăng tài nguyên, mà còn nằm ở cách thiết kế kiến trúc và quản lý độ phức tạp của hệ thống.
 
-CÃ¡c thÃ nh pháº§n nhÆ° **Amazon EventBridge**, **Amazon SQS**, **AWS Lambda** vÃ  **DLQ** thÆ°á»ng Ä‘Æ°á»£c sá»­ dá»¥ng Ä‘á»ƒ xÃ¢y dá»±ng luá»“ng xá»­ lÃ½ báº¥t Ä‘á»“ng bá»™. Khi há»‡ thá»‘ng lá»›n dáº§n, viá»‡c sá»­ dá»¥ng hÃ ng Ä‘á»£i, cÆ¡ cháº¿ retry, dead-letter queue vÃ  phÃ¢n tÃ¡ch trÃ¡ch nhiá»‡m giá»¯a cÃ¡c thÃ nh pháº§n giÃºp há»‡ thá»‘ng á»•n Ä‘á»‹nh hÆ¡n.
+Các thành phần như **Amazon EventBridge**, **Amazon SQS**, **AWS Lambda** và **DLQ** thường được sử dụng để xây dựng luồng xử lý bất đồng bộ. Khi hệ thống lớn dần, việc sử dụng hàng đợi, cơ chế retry, dead-letter queue và phân tách trách nhiệm giữa các thành phần giúp hệ thống ổn định hơn.
 
-## HÃ¬nh áº£nh bÃ i chia sáº»
+## Hình ảnh bài chia sẻ
 
 <img src="/AWS/images/3-BlogsTranslated/blog-3.png" alt="Blog 3 - Lessons learned from scaling to 1 million Lambda functions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
-## Äiá»u mÃ¬nh há»c Ä‘Æ°á»£c
+## Điều mình học được
 
-- Scale á»Ÿ quy mÃ´ lá»›n cáº§n tÆ° duy kiáº¿n trÃºc, khÃ´ng chá»‰ tÄƒng tÃ i nguyÃªn.
-- Event-driven architecture giÃºp cÃ¡c thÃ nh pháº§n káº¿t ná»‘i rá»i ráº¡c vÃ  dá»… má»Ÿ rá»™ng hÆ¡n.
-- SQS vÃ  DLQ giÃºp há»‡ thá»‘ng xá»­ lÃ½ lá»—i tá»‘t hÆ¡n trong cÃ¡c luá»“ng báº¥t Ä‘á»“ng bá»™.
-- Cáº§n chÃº Ã½ service quotas, logging, monitoring vÃ  cÃ¡ch tá»• chá»©c tÃ i nguyÃªn.
-- Khi há»‡ thá»‘ng phÃ¡t triá»ƒn, viá»‡c chuáº©n hÃ³a pattern kiáº¿n trÃºc giÃºp giáº£m rá»§i ro váº­n hÃ nh.
+- Scale ở quy mô lớn cần tư duy kiến trúc, không chỉ tăng tài nguyên.
+- Event-driven architecture giúp các thành phần kết nối rời rạc và dễ mở rộng hơn.
+- SQS và DLQ giúp hệ thống xử lý lỗi tốt hơn trong các luồng bất đồng bộ.
+- Cần chú ý service quotas, logging, monitoring và cách tổ chức tài nguyên.
+- Khi hệ thống phát triển, việc chuẩn hóa pattern kiến trúc giúp giảm rủi ro vận hành.
 
-## LiÃªn há»‡ vá»›i dá»± Ã¡n SUMMER-STORE
+## Liên hệ với dự án SUMMER-STORE
 
-Dá»± Ã¡n SUMMER-STORE hiá»‡n dÃ¹ng kiáº¿n trÃºc Ä‘Æ¡n giáº£n vá»›i frontend trÃªn S3, backend trÃªn EC2 vÃ  database trÃªn RDS. Tuy nhiÃªn, cÃ¡c bÃ i há»c tá»« há»‡ thá»‘ng Lambda quy mÃ´ lá»›n váº«n ráº¥t há»¯u Ã­ch. Trong tÆ°Æ¡ng lai, nhá»¯ng tÃ¡c vá»¥ nhÆ° xá»­ lÃ½ Ä‘Æ¡n hÃ ng, gá»­i thÃ´ng bÃ¡o, xá»­ lÃ½ thanh toÃ¡n hoáº·c Ä‘á»“ng bá»™ dá»¯ liá»‡u cÃ³ thá»ƒ Ä‘Æ°á»£c tÃ¡ch thÃ nh cÃ¡c luá»“ng event-driven Ä‘á»ƒ há»‡ thá»‘ng linh hoáº¡t vÃ  dá»… má»Ÿ rá»™ng hÆ¡n.
+Dự án SUMMER-STORE hiện dùng kiến trúc đơn giản với frontend trên S3, backend trên EC2 và database trên RDS. Tuy nhiên, các bài học từ hệ thống Lambda quy mô lớn vẫn rất hữu ích. Trong tương lai, những tác vụ như xử lý đơn hàng, gửi thông báo, xử lý thanh toán hoặc đồng bộ dữ liệu có thể được tách thành các luồng event-driven để hệ thống linh hoạt và dễ mở rộng hơn.
 
-## Link bÃ i chia sáº»
+## Link bài chia sẻ
 
-File Word hiá»‡n chÆ°a cung cáº¥p link bÃ i chia sáº» cho Blog 3.
+File Word hiện chưa cung cấp link bài chia sẻ cho Blog 3.
+
 

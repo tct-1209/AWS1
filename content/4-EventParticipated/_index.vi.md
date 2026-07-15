@@ -1,41 +1,42 @@
 ﻿---
-title: "CÃ¡c events Ä‘Ã£ tham gia"
+title: "Các events đã tham gia"
 date: 2026-07-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong thá»i gian thá»±c táº­p, em Ä‘Ã£ tham gia cÃ¡c sá»± kiá»‡n thuá»™c cá»™ng Ä‘á»“ng AWS/FCAJ. CÃ¡c sá»± kiá»‡n nÃ y giÃºp em má»Ÿ rá»™ng kiáº¿n thá»©c vá» cloud, báº£o máº­t, DevOps, AI, ká»¹ nÄƒng trÃ¬nh bÃ y vÃ  Ä‘á»‹nh hÆ°á»›ng nghá» nghiá»‡p trong lÄ©nh vá»±c cÃ´ng nghá»‡.
+Trong thời gian thực tập, em đã tham gia các sự kiện thuộc cộng đồng AWS/FCAJ. Các sự kiện này giúp em mở rộng kiến thức về cloud, bảo mật, DevOps, AI, kỹ năng trình bày và định hướng nghề nghiệp trong lĩnh vực công nghệ.
 
 ### [Event 1](4.1-Event1/)
-&emsp;**TÃªn sá»± kiá»‡n:** Event Meet Up
+&emsp;**Tên sự kiện:** Event Meet Up
 
-&emsp;**Thá»i gian:** 09:00 ngÃ y 30/05/2026
+&emsp;**Thời gian:** 09:00 ngày 30/05/2026
 
-&emsp;**Äá»‹a Ä‘iá»ƒm:** Táº§ng 26, tÃ²a nhÃ  Bitexco, sá»‘ 02 Ä‘Æ°á»ng Háº£i Triá»u, phÆ°á»ng SÃ i GÃ²n, thÃ nh phá»‘ Há»“ ChÃ­ Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trÃ²:** NgÆ°á»i tham dá»±
+&emsp;**Vai trò:** Người tham dự
 
 ---
 
 ### [Event 2](4.2-Event2/)
-&emsp;**TÃªn sá»± kiá»‡n:** AWS Study Group Meetup 06/06/2026
+&emsp;**Tên sự kiện:** AWS Study Group Meetup 06/06/2026
 
-&emsp;**Thá»i gian:** 09:00 ngÃ y 06/06/2026
+&emsp;**Thời gian:** 09:00 ngày 06/06/2026
 
-&emsp;**Äá»‹a Ä‘iá»ƒm:** Táº§ng 26, tÃ²a nhÃ  Bitexco, sá»‘ 02 Ä‘Æ°á»ng Háº£i Triá»u, phÆ°á»ng SÃ i GÃ²n, thÃ nh phá»‘ Há»“ ChÃ­ Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trÃ²:** NgÆ°á»i tham dá»±
+&emsp;**Vai trò:** Người tham dự
 
 ---
 
 ### [Event 3](4.3-Event3/)
-&emsp;**TÃªn sá»± kiá»‡n:** Cloud Architect Final & Technical Sharing
+&emsp;**Tên sự kiện:** Cloud Architect Final & Technical Sharing
 
-&emsp;**Thá»i gian:** 09:00 ngÃ y 11/07/2026
+&emsp;**Thời gian:** 09:00 ngày 11/07/2026
 
-&emsp;**Äá»‹a Ä‘iá»ƒm:** Táº§ng 26, tÃ²a nhÃ  Bitexco, sá»‘ 02 Ä‘Æ°á»ng Háº£i Triá»u, phÆ°á»ng SÃ i GÃ²n, thÃ nh phá»‘ Há»“ ChÃ­ Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trÃ²:** NgÆ°á»i tham dá»±
+&emsp;**Vai trò:** Người tham dự
+
 

@@ -14,18 +14,18 @@ To reflect on the internship period objectively, I evaluate myself based on the 
 
 | No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | âœ…    | â˜    | â˜       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | â˜    | âœ…    | â˜       |
-| 3   | **Proactiveness**                   | Taking initiative and working without waiting for detailed instructions                          | âœ…    | â˜    | â˜       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | âœ…    | â˜    | â˜       |
-| 5   | **Discipline**                      | Following schedules, rules, and working procedures                                               | âœ…    | â˜    | â˜       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | âœ…    | â˜    | â˜       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | â˜    | âœ…    | â˜       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | âœ…    | â˜    | â˜       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | âœ…    | â˜    | â˜       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | â˜    | âœ…    | â˜       |
-| 11  | **Contribution to project/team**    | Work effectiveness, improvement ideas, and recognition from the team                             | âœ…    | â˜    | â˜       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | âœ…    | â˜    | â˜       |
+| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
+| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
+| 3   | **Proactiveness**                   | Taking initiative and working without waiting for detailed instructions                          | ✅    | ☐    | ☐       |
+| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
+| 5   | **Discipline**                      | Following schedules, rules, and working procedures                                               | ✅    | ☐    | ☐       |
+| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ✅    | ☐    | ☐       |
+| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
+| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
+| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
+| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
+| 11  | **Contribution to project/team**    | Work effectiveness, improvement ideas, and recognition from the team                             | ✅    | ☐    | ☐       |
+| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
 
 ### Needs Improvement
 
@@ -34,4 +34,5 @@ I need to improve the way I summarize knowledge in a more concise and systematic
 In addition, I need to strengthen my troubleshooting process layer by layer. When a system issue occurs, I will try to check networking, Security Groups, running services, application logs, database connections, and deployment configuration in order instead of solving the problem based only on assumptions.
 
 Moving forward, I will continue practicing with AWS CLI, CloudWatch Logs, IAM, CI/CD, and resource cleanup workflows to work more proactively, reduce repeated mistakes, and become more confident when presenting results to mentors or team members.
+
 

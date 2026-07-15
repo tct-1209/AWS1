@@ -1,23 +1,24 @@
 ﻿---
-title: "CÃ¡c bÃ i blogs Ä‘Ã£ dá»‹ch"
+title: "Các bài blogs đã dịch"
 date: 2026-07-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# CÃ¡c bÃ i blogs Ä‘Ã£ dá»‹ch
+# Các bài blogs đã dịch
 
-Pháº§n nÃ y tá»•ng há»£p 3 bÃ i blog Ä‘Ã£ Ä‘á»c, dá»‹ch/tÃ³m táº¯t vÃ  chia sáº» trong quÃ¡ trÃ¬nh tÃ¬m hiá»ƒu AWS. Ná»™i dung táº­p trung vÃ o cÃ¡c chá»§ Ä‘á» gáº§n vá»›i dá»± Ã¡n triá»ƒn khai SUMMER-STORE trÃªn AWS: tá»‘i Æ°u chi phÃ­ RDS, má»Ÿ rá»™ng há»‡ thá»‘ng vá»›i EC2 vÃ  tÆ° duy kiáº¿n trÃºc khi scale Lambda á»Ÿ quy mÃ´ lá»›n.
+Phần này tổng hợp 3 bài blog đã đọc, dịch/tóm tắt và chia sẻ trong quá trình tìm hiểu AWS. Nội dung tập trung vào các chủ đề gần với dự án triển khai SUMMER-STORE trên AWS: tối ưu chi phí RDS, mở rộng hệ thống với EC2 và tư duy kiến trúc khi scale Lambda ở quy mô lớn.
 
-## Danh sÃ¡ch blog
+## Danh sách blog
 
-### [Blog 1 - Tá»‘i Æ°u chi phÃ­ Amazon RDS báº±ng cÃ¡ch tá»± Ä‘á»™ng Start/Stop vá»›i AWS Lambda](3.1-Blog1/)
-BÃ i viáº¿t giÃºp hiá»ƒu cÃ¡ch sá»­ dá»¥ng **Amazon EventBridge Scheduler**, **AWS Lambda** vÃ  **IAM Role** Ä‘á»ƒ tá»± Ä‘á»™ng báº­t/táº¯t **Amazon RDS** theo lá»‹ch, tá»« Ä‘Ã³ giáº£m chi phÃ­ khi database khÃ´ng cáº§n cháº¡y liÃªn tá»¥c.
+### [Blog 1 - Tối ưu chi phí Amazon RDS bằng cách tự động Start/Stop với AWS Lambda](3.1-Blog1/)
+Bài viết giúp hiểu cách sử dụng **Amazon EventBridge Scheduler**, **AWS Lambda** và **IAM Role** để tự động bật/tắt **Amazon RDS** theo lịch, từ đó giảm chi phí khi database không cần chạy liên tục.
 
-### [Blog 2 - Scale há»‡ thá»‘ng khÃ´ng chá»‰ lÃ  thÃªm EC2](3.2-Blog2/)
-BÃ i viáº¿t nháº¥n máº¡nh ráº±ng má»Ÿ rá»™ng há»‡ thá»‘ng khÃ´ng Ä‘Æ¡n giáº£n lÃ  tÄƒng sá»‘ lÆ°á»£ng EC2, mÃ  cáº§n chuáº©n bá»‹ kiáº¿n trÃºc gá»“m nhiá»u Availability Zone, Auto Scaling, health check, giÃ¡m sÃ¡t vÃ  thiáº¿t káº¿ á»©ng dá»¥ng phÃ¹ há»£p.
+### [Blog 2 - Scale hệ thống không chỉ là thêm EC2](3.2-Blog2/)
+Bài viết nhấn mạnh rằng mở rộng hệ thống không đơn giản là tăng số lượng EC2, mà cần chuẩn bị kiến trúc gồm nhiều Availability Zone, Auto Scaling, health check, giám sát và thiết kế ứng dụng phù hợp.
 
 ### [Blog 3 - Lessons learned from scaling to 1 million Lambda functions](3.3-Blog3/)
-BÃ i viáº¿t nÃ³i vá» bÃ i há»c khi váº­n hÃ nh há»‡ thá»‘ng serverless á»Ÿ quy mÃ´ ráº¥t lá»›n, Ä‘áº·c biá»‡t lÃ  tÆ° duy event-driven, hÃ ng Ä‘á»£i, DLQ, giá»›i háº¡n dá»‹ch vá»¥, quan sÃ¡t há»‡ thá»‘ng vÃ  quáº£n trá»‹ kiáº¿n trÃºc phÃ¢n tÃ¡n.
+Bài viết nói về bài học khi vận hành hệ thống serverless ở quy mô rất lớn, đặc biệt là tư duy event-driven, hàng đợi, DLQ, giới hạn dịch vụ, quan sát hệ thống và quản trị kiến trúc phân tán.
+
 

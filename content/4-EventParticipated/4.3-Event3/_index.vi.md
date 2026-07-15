@@ -8,40 +8,41 @@ pre: " <b> 4.3. </b> "
 
 # Event 3: Cloud Architect Final & Technical Sharing
 
-### ThÃ´ng tin sá»± kiá»‡n
+### Thông tin sự kiện
 
-| Ná»™i dung | ThÃ´ng tin |
+| Nội dung | Thông tin |
 |---|---|
-| **TÃªn sá»± kiá»‡n** | Cloud Architect Final & Technical Sharing |
-| **Thá»i gian** | 09:00, ngÃ y 11/07/2026 |
-| **Äá»‹a Ä‘iá»ƒm** | Táº§ng 26, tÃ²a nhÃ  Bitexco, sá»‘ 02 Ä‘Æ°á»ng Háº£i Triá»u, phÆ°á»ng SÃ i GÃ²n, thÃ nh phá»‘ Há»“ ChÃ­ Minh |
-| **Vai trÃ²** | NgÆ°á»i tham dá»± |
+| **Tên sự kiện** | Cloud Architect Final & Technical Sharing |
+| **Thời gian** | 09:00, ngày 11/07/2026 |
+| **Địa điểm** | Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
+| **Vai trò** | Người tham dự |
 
-### Má»Ÿ Ä‘áº§u sá»± kiá»‡n
+### Mở đầu sự kiện
 
-Pháº§n má»Ÿ Ä‘áº§u cá»§a sá»± kiá»‡n lÃ  tráº­n chung káº¿t **Cloud Architect** giá»¯a hai Ä‘á»™i **KLKAT** vÃ  **NgÅ© Äáº¡i Hiá»‡p**. ÄÃ¢y lÃ  pháº§n thi giÃºp em quan sÃ¡t cÃ¡ch cÃ¡c Ä‘á»™i phÃ¢n tÃ­ch bÃ i toÃ¡n kiáº¿n trÃºc cloud, trÃ¬nh bÃ y giáº£i phÃ¡p vÃ  báº£o vá»‡ Ã½ tÆ°á»Ÿng trÆ°á»›c ngÆ°á»i nghe.
+Phần mở đầu của sự kiện là trận chung kết **Cloud Architect** giữa hai đội **KLKAT** và **Ngũ Đại Hiệp**. Đây là phần thi giúp em quan sát cách các đội phân tích bài toán kiến trúc cloud, trình bày giải pháp và bảo vệ ý tưởng trước người nghe.
 
-### Ná»™i dung trÃ¬nh bÃ y cá»§a cÃ¡c speaker
+### Nội dung trình bày của các speaker
 
-#### 1. Anh Thá»‹nh Nguyá»…n - Securing Your Web Apps With AWS Security Agent
+#### 1. Anh Thịnh Nguyễn - Securing Your Web Apps With AWS Security Agent
 
-Pháº§n trÃ¬nh bÃ y táº­p trung vÃ o viá»‡c báº£o vá»‡ á»©ng dá»¥ng web khi triá»ƒn khai trÃªn AWS. Em hiá»ƒu thÃªm vai trÃ² cá»§a cÃ¡c lá»›p báº£o máº­t, cÃ¡ch giáº£m rá»§i ro táº¥n cÃ´ng vÃ  táº§m quan trá»ng cá»§a viá»‡c theo dÃµi, phÃ¡t hiá»‡n váº¥n Ä‘á» sá»›m trong quÃ¡ trÃ¬nh váº­n hÃ nh.
+Phần trình bày tập trung vào việc bảo vệ ứng dụng web khi triển khai trên AWS. Em hiểu thêm vai trò của các lớp bảo mật, cách giảm rủi ro tấn công và tầm quan trọng của việc theo dõi, phát hiện vấn đề sớm trong quá trình vận hành.
 
-#### 2. Anh Nguyá»…n Huá»³nh SÆ¡n - SLA and Monitoring: From SLA to Monitoring What Really Matters
+#### 2. Anh Nguyễn Huỳnh Sơn - SLA and Monitoring: From SLA to Monitoring What Really Matters
 
-Speaker chia sáº» vá» SLA vÃ  cÃ¡ch theo dÃµi nhá»¯ng chá»‰ sá»‘ tháº­t sá»± quan trá»ng. Ná»™i dung giÃºp em nháº­n ra monitoring khÃ´ng chá»‰ lÃ  xem dashboard, mÃ  cáº§n gáº¯n vá»›i tráº£i nghiá»‡m ngÆ°á»i dÃ¹ng, Ä‘á»™ á»•n Ä‘á»‹nh há»‡ thá»‘ng vÃ  má»¥c tiÃªu váº­n hÃ nh.
+Speaker chia sẻ về SLA và cách theo dõi những chỉ số thật sự quan trọng. Nội dung giúp em nhận ra monitoring không chỉ là xem dashboard, mà cần gắn với trải nghiệm người dùng, độ ổn định hệ thống và mục tiêu vận hành.
 
-#### 3. Anh NgÃ´ LÃª Táº¥n Huy - Inside The Exam: AWS Cloud Practitioner
+#### 3. Anh Ngô Lê Tấn Huy - Inside The Exam: AWS Cloud Practitioner
 
-Pháº§n chia sáº» cung cáº¥p gÃ³c nhÃ¬n vá» ká»³ thi AWS Cloud Practitioner, bao gá»“m cÃ¡ch chuáº©n bá»‹ kiáº¿n thá»©c ná»n táº£ng, phÃ¢n bá»• thá»i gian há»c vÃ  Ä‘á»‹nh hÆ°á»›ng Ã´n táº­p hiá»‡u quáº£. Ná»™i dung giÃºp em cÃ³ thÃªm Ä‘á»™ng lá»±c Ä‘á»ƒ tiáº¿p tá»¥c há»c chá»©ng chá»‰ AWS.
+Phần chia sẻ cung cấp góc nhìn về kỳ thi AWS Cloud Practitioner, bao gồm cách chuẩn bị kiến thức nền tảng, phân bổ thời gian học và định hướng ôn tập hiệu quả. Nội dung giúp em có thêm động lực để tiếp tục học chứng chỉ AWS.
 
-### Káº¿t quáº£ Ä‘áº¡t Ä‘Æ°á»£c
+### Kết quả đạt được
 
-Sau sá»± kiá»‡n, em hiá»ƒu rÃµ hÆ¡n vá» tÆ° duy thiáº¿t káº¿ kiáº¿n trÃºc cloud, báº£o máº­t á»©ng dá»¥ng web, monitoring theo má»¥c tiÃªu váº­n hÃ nh vÃ  Ä‘á»‹nh hÆ°á»›ng há»c chá»©ng chá»‰ AWS. Sá»± kiá»‡n giÃºp em cÃ³ thÃªm kinh nghiá»‡m quan sÃ¡t, ghi chÃº vÃ  tá»•ng há»£p kiáº¿n thá»©c tá»« cÃ¡c buá»•i chia sáº» ká»¹ thuáº­t.
+Sau sự kiện, em hiểu rõ hơn về tư duy thiết kế kiến trúc cloud, bảo mật ứng dụng web, monitoring theo mục tiêu vận hành và định hướng học chứng chỉ AWS. Sự kiện giúp em có thêm kinh nghiệm quan sát, ghi chú và tổng hợp kiến thức từ các buổi chia sẻ kỹ thuật.
 
-### Má»™t sá»‘ hÃ¬nh áº£nh minh chá»©ng tham gia sá»± kiá»‡n
+### Một số hình ảnh minh chứng tham gia sự kiện
 
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-01.jpg" alt="Event evidence image"></p>
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-02.jpg" alt="Event evidence image"></p>
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-03.jpg" alt="Event evidence image"></p>
+
 

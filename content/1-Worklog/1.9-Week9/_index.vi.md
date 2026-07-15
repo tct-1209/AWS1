@@ -1,42 +1,43 @@
 ﻿---
-title: "Worklog Tuáº§n 9"
+title: "Worklog Tuần 9"
 date: 2026-07-01
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-# Worklog Tuáº§n 9: CI/CD triá»ƒn khai á»©ng dá»¥ng vÃ  lÆ°u trá»¯ file doanh nghiá»‡p
+# Worklog Tuần 9: CI/CD triển khai ứng dụng và lưu trữ file doanh nghiệp
 
-**Thá»i gian thá»±c hiá»‡n:** 15/06/2026 - 21/06/2026
+**Thời gian thực hiện:** 15/06/2026 - 21/06/2026
 
-## 1. Má»¥c tiÃªu tuáº§n
+## 1. Mục tiêu tuần
 
-- TÃ¬m hiá»ƒu CodePipeline, CodeBuild vÃ  CodeDeploy khi deploy á»©ng dá»¥ng lÃªn EC2.
-- Náº¯m cÃ¡ch chuáº©n bá»‹ role, artifact, agent vÃ  deployment group.
-- TÃ¬m hiá»ƒu cÃ¡c lá»±a chá»n lÆ°u trá»¯ file nhÆ° Storage Gateway vÃ  Amazon FSx.
+- Tìm hiểu CodePipeline, CodeBuild và CodeDeploy khi deploy ứng dụng lên EC2.
+- Nắm cách chuẩn bị role, artifact, agent và deployment group.
+- Tìm hiểu các lựa chọn lưu trữ file như Storage Gateway và Amazon FSx.
 
-## 2. Chi tiáº¿t cÃ´ng viá»‡c triá»ƒn khai
+## 2. Chi tiết công việc triển khai
 
-| Thá»© | Thá»i gian | Ná»™i dung cÃ´ng viá»‡c |
+| Thứ | Thời gian | Nội dung công việc |
 | --- | --- | --- |
-| Thá»© 2 | 15/06/2026 | Äá»c mÃ´ hÃ¬nh CI/CD deploy á»©ng dá»¥ng lÃªn EC2 vá»›i CodePipeline. |
-| Thá»© 3 | 16/06/2026 | TÃ¬m hiá»ƒu CodeBuild project, buildspec vÃ  artifact Ä‘áº§u ra. |
-| Thá»© 4 | 17/06/2026 | NghiÃªn cá»©u CodeDeploy Application, Deployment Group vÃ  CodeDeploy Agent trÃªn EC2. |
-| Thá»© 5 | 18/06/2026 | TÃ¬m hiá»ƒu Storage Gateway Ä‘á»ƒ káº¿t ná»‘i mÃ´i trÆ°á»ng on-premises vá»›i lÆ°u trá»¯ AWS. |
-| Thá»© 6 | 19/06/2026 | NghiÃªn cá»©u Amazon FSx for Windows File Server vÃ  use case chia sáº» file qua SMB. |
+| Thứ 2 | 15/06/2026 | Đọc mô hình CI/CD deploy ứng dụng lên EC2 với CodePipeline. |
+| Thứ 3 | 16/06/2026 | Tìm hiểu CodeBuild project, buildspec và artifact đầu ra. |
+| Thứ 4 | 17/06/2026 | Nghiên cứu CodeDeploy Application, Deployment Group và CodeDeploy Agent trên EC2. |
+| Thứ 5 | 18/06/2026 | Tìm hiểu Storage Gateway để kết nối môi trường on-premises với lưu trữ AWS. |
+| Thứ 6 | 19/06/2026 | Nghiên cứu Amazon FSx for Windows File Server và use case chia sẻ file qua SMB. |
 
-## 3. Káº¿t quáº£ Ä‘áº¡t Ä‘Æ°á»£c
+## 3. Kết quả đạt được
 
-- Hiá»ƒu quy trÃ¬nh tá»± Ä‘á»™ng hÃ³a build/deploy lÃªn EC2.
-- Biáº¿t vai trÃ² cá»§a tá»«ng thÃ nh pháº§n trong pipeline.
-- Má»Ÿ rá»™ng kiáº¿n thá»©c vá» lÆ°u trá»¯ file trong mÃ´i trÆ°á»ng doanh nghiá»‡p.
+- Hiểu quy trình tự động hóa build/deploy lên EC2.
+- Biết vai trò của từng thành phần trong pipeline.
+- Mở rộng kiến thức về lưu trữ file trong môi trường doanh nghiệp.
 
-## 4. Nguá»“n tÃ i liá»‡u tham kháº£o
+## 4. Nguồn tài liệu tham khảo
 
-| Nguá»“n | ÄÆ°á»ng dáº«n | Ná»™i dung tham kháº£o |
+| Nguồn | Đường dẫn | Nội dung tham khảo |
 | --- | --- | --- |
 | 000023 - Deploy to EC2 with CodePipeline | [https://000023.awsstudygroup.com/](https://000023.awsstudygroup.com/) | CodePipeline, CodeBuild, CodeDeploy |
 | 000024 - Storage Gateway | [https://000024.awsstudygroup.com/](https://000024.awsstudygroup.com/) | File Storage Gateway |
 | 000025 - Amazon FSx for Windows File Server | [https://000025.awsstudygroup.com/](https://000025.awsstudygroup.com/) | Managed Windows file shares |
+
 

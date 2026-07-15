@@ -1,42 +1,43 @@
 ﻿---
-title: "Worklog Tuáº§n 5"
+title: "Worklog Tuần 5"
 date: 2026-07-01
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-# Worklog Tuáº§n 5: Tá»± Ä‘á»™ng hÃ³a háº¡ táº§ng vá»›i CloudFormation, CDK vÃ  Cloud9
+# Worklog Tuần 5: Tự động hóa hạ tầng với CloudFormation, CDK và Cloud9
 
-**Thá»i gian thá»±c hiá»‡n:** 18/05/2026 - 24/05/2026
+**Thời gian thực hiện:** 18/05/2026 - 24/05/2026
 
-## 1. Má»¥c tiÃªu tuáº§n
+## 1. Mục tiêu tuần
 
-- Náº¯m khÃ¡i niá»‡m Infrastructure as Code.
-- TÃ¬m hiá»ƒu CloudFormation template, stack vÃ  quy trÃ¬nh triá»ƒn khai tÃ i nguyÃªn.
-- LÃ m quen Cloud9/CDK Ä‘á»ƒ xÃ¢y dá»±ng háº¡ táº§ng báº±ng code.
+- Nắm khái niệm Infrastructure as Code.
+- Tìm hiểu CloudFormation template, stack và quy trình triển khai tài nguyên.
+- Làm quen Cloud9/CDK để xây dựng hạ tầng bằng code.
 
-## 2. Chi tiáº¿t cÃ´ng viá»‡c triá»ƒn khai
+## 2. Chi tiết công việc triển khai
 
-| Thá»© | Thá»i gian | Ná»™i dung cÃ´ng viá»‡c |
+| Thứ | Thời gian | Nội dung công việc |
 | --- | --- | --- |
-| Thá»© 2 | 18/05/2026 | Äá»c tá»•ng quan AWS CloudFormation vÃ  vai trÃ² cá»§a stack trong quáº£n lÃ½ tÃ i nguyÃªn. |
-| Thá»© 3 | 19/05/2026 | TÃ¬m hiá»ƒu template cÆ¡ báº£n, parameter, output vÃ  cÃ¡ch cáº­p nháº­t stack. |
-| Thá»© 4 | 20/05/2026 | NghiÃªn cá»©u drift detection Ä‘á»ƒ phÃ¡t hiá»‡n khÃ¡c biá»‡t giá»¯a cáº¥u hÃ¬nh thá»±c táº¿ vÃ  template. |
-| Thá»© 5 | 21/05/2026 | TÃ¬m hiá»ƒu AWS CDK, cÃ¡ch mÃ´ táº£ háº¡ táº§ng báº±ng ngÃ´n ngá»¯ láº­p trÃ¬nh thay vÃ¬ YAML/JSON. |
-| Thá»© 6 | 22/05/2026 | LÃ m quen Cloud9 nhÆ° mÃ´i trÆ°á»ng IDE trÃªn cloud phá»¥c vá»¥ viáº¿t, cháº¡y vÃ  kiá»ƒm thá»­ mÃ£. |
+| Thứ 2 | 18/05/2026 | Đọc tổng quan AWS CloudFormation và vai trò của stack trong quản lý tài nguyên. |
+| Thứ 3 | 19/05/2026 | Tìm hiểu template cơ bản, parameter, output và cách cập nhật stack. |
+| Thứ 4 | 20/05/2026 | Nghiên cứu drift detection để phát hiện khác biệt giữa cấu hình thực tế và template. |
+| Thứ 5 | 21/05/2026 | Tìm hiểu AWS CDK, cách mô tả hạ tầng bằng ngôn ngữ lập trình thay vì YAML/JSON. |
+| Thứ 6 | 22/05/2026 | Làm quen Cloud9 như môi trường IDE trên cloud phục vụ viết, chạy và kiểm thử mã. |
 
-## 3. Káº¿t quáº£ Ä‘áº¡t Ä‘Æ°á»£c
+## 3. Kết quả đạt được
 
-- Hiá»ƒu lá»£i Ã­ch cá»§a Infrastructure as Code trong triá»ƒn khai láº·p láº¡i.
-- Biáº¿t cÃ¡c thÃ nh pháº§n chÃ­nh cá»§a CloudFormation stack.
-- CÃ³ ná»n táº£ng Ä‘á»ƒ Ä‘á»c vÃ  chá»‰nh sá»­a template háº¡ táº§ng.
+- Hiểu lợi ích của Infrastructure as Code trong triển khai lặp lại.
+- Biết các thành phần chính của CloudFormation stack.
+- Có nền tảng để đọc và chỉnh sửa template hạ tầng.
 
-## 4. Nguá»“n tÃ i liá»‡u tham kháº£o
+## 4. Nguồn tài liệu tham khảo
 
-| Nguá»“n | ÄÆ°á»ng dáº«n | Ná»™i dung tham kháº£o |
+| Nguồn | Đường dẫn | Nội dung tham khảo |
 | --- | --- | --- |
 | 000037 - AWS CloudFormation | [https://000037.awsstudygroup.com/](https://000037.awsstudygroup.com/) | CloudFormation stacks and templates |
 | 000038 - CDK Basic | [https://000038.awsstudygroup.com/](https://000038.awsstudygroup.com/) | AWS CDK basics |
 | 000049 - AWS Cloud9 | [https://000049.awsstudygroup.com/](https://000049.awsstudygroup.com/) | Cloud-based IDE |
+
 
