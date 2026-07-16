@@ -41,3 +41,5 @@ During the internship period, I attended events from the AWS/FCAJ community. The
 
 
 
+
+

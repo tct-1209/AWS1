@@ -36,3 +36,5 @@ In the SUMMER-STORE project, **Amazon RDS for SQL Server** is used as the main d
 
 
 
+
+
