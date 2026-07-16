@@ -41,3 +41,4 @@ pre: " <b> 1.2. </b> "
 | 000032 - EC2 Right-Sizing | [https://000032.awsstudygroup.com/](https://000032.awsstudygroup.com/) | Instance sizing basics |
 
 
+

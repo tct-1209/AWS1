@@ -8,42 +8,44 @@ pre: " <b> 4.3. </b> "
 
 # Event 3: Cloud Architect Final & Technical Sharing
 
-### Thông tin sự kiện
+### Th�ng tin s? ki?n
 
-| Nội dung | Thông tin |
+| N?i dung | Th�ng tin |
 |---|---|
-| **Tên sự kiện** | Cloud Architect Final & Technical Sharing |
-| **Thời gian** | 09:00, ngày 11/07/2026 |
-| **Địa điểm** | Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
-| **Vai trò** | Người tham dự |
+| **T�n s? ki?n** | Cloud Architect Final & Technical Sharing |
+| **Th?i gian** | 09:00, ng�y 11/07/2026 |
+| **�?a di?m** | T?ng 26, t�a nh� Bitexco, s? 02 du?ng H?i Tri?u, phu?ng S�i G�n, th�nh ph? H? Ch� Minh |
+| **Vai tr�** | Ngu?i tham d? |
 
-### Mở đầu sự kiện
+### M? d?u s? ki?n
 
-Phần mở đầu của sự kiện là trận chung kết **Cloud Architect** giữa hai đội **KLKAT** và **Ngũ Đại Hiệp**. Đây là phần thi giúp em quan sát cách các đội phân tích bài toán kiến trúc cloud, trình bày giải pháp và bảo vệ ý tưởng trước người nghe.
+Ph?n m? d?u c?a s? ki?n l� tr?n chung k?t **Cloud Architect** gi?a hai d?i **KLKAT** v� **Ngu �?i Hi?p**. ��y l� ph?n thi gi�p em quan s�t c�ch c�c d?i ph�n t�ch b�i to�n ki?n tr�c cloud, tr�nh b�y gi?i ph�p v� b?o v? � tu?ng tru?c ngu?i nghe.
 
-### Nội dung trình bày của các speaker
+### N?i dung tr�nh b�y c?a c�c speaker
 
-#### 1. Anh Thịnh Nguyễn - Securing Your Web Apps With AWS Security Agent
+#### 1. Anh Th?nh Nguy?n - Securing Your Web Apps With AWS Security Agent
 
-Phần trình bày tập trung vào việc bảo vệ ứng dụng web khi triển khai trên AWS. Em hiểu thêm vai trò của các lớp bảo mật, cách giảm rủi ro tấn công và tầm quan trọng của việc theo dõi, phát hiện vấn đề sớm trong quá trình vận hành.
+Ph?n tr�nh b�y t?p trung v�o vi?c b?o v? ?ng d?ng web khi tri?n khai tr�n AWS. Em hi?u th�m vai tr� c?a c�c l?p b?o m?t, c�ch gi?m r?i ro t?n c�ng v� t?m quan tr?ng c?a vi?c theo d�i, ph�t hi?n v?n d? s?m trong qu� tr�nh v?n h�nh.
 
-#### 2. Anh Nguyễn Huỳnh Sơn - SLA and Monitoring: From SLA to Monitoring What Really Matters
+#### 2. Anh Nguy?n Hu?nh Son - SLA and Monitoring: From SLA to Monitoring What Really Matters
 
-Speaker chia sẻ về SLA và cách theo dõi những chỉ số thật sự quan trọng. Nội dung giúp em nhận ra monitoring không chỉ là xem dashboard, mà cần gắn với trải nghiệm người dùng, độ ổn định hệ thống và mục tiêu vận hành.
+Speaker chia s? v? SLA v� c�ch theo d�i nh?ng ch? s? th?t s? quan tr?ng. N?i dung gi�p em nh?n ra monitoring kh�ng ch? l� xem dashboard, m� c?n g?n v?i tr?i nghi?m ngu?i d�ng, d? ?n d?nh h? th?ng v� m?c ti�u v?n h�nh.
 
-#### 3. Anh Ngô Lê Tấn Huy - Inside The Exam: AWS Cloud Practitioner
+#### 3. Anh Ng� L� T?n Huy - Inside The Exam: AWS Cloud Practitioner
 
-Phần chia sẻ cung cấp góc nhìn về kỳ thi AWS Cloud Practitioner, bao gồm cách chuẩn bị kiến thức nền tảng, phân bổ thời gian học và định hướng ôn tập hiệu quả. Nội dung giúp em có thêm động lực để tiếp tục học chứng chỉ AWS.
+Ph?n chia s? cung c?p g�c nh�n v? k? thi AWS Cloud Practitioner, bao g?m c�ch chu?n b? ki?n th?c n?n t?ng, ph�n b? th?i gian h?c v� d?nh hu?ng �n t?p hi?u qu?. N?i dung gi�p em c� th�m d?ng l?c d? ti?p t?c h?c ch?ng ch? AWS.
 
-### Kết quả đạt được
+### K?t qu? d?t du?c
 
-Sau sự kiện, em hiểu rõ hơn về tư duy thiết kế kiến trúc cloud, bảo mật ứng dụng web, monitoring theo mục tiêu vận hành và định hướng học chứng chỉ AWS. Sự kiện giúp em có thêm kinh nghiệm quan sát, ghi chú và tổng hợp kiến thức từ các buổi chia sẻ kỹ thuật.
+Sau s? ki?n, em hi?u r� hon v? tu duy thi?t k? ki?n tr�c cloud, b?o m?t ?ng d?ng web, monitoring theo m?c ti�u v?n h�nh v� d?nh hu?ng h?c ch?ng ch? AWS. S? ki?n gi�p em c� th�m kinh nghi?m quan s�t, ghi ch� v� t?ng h?p ki?n th?c t? c�c bu?i chia s? k? thu?t.
 
-### Một số hình ảnh minh chứng tham gia sự kiện
+### M?t s? h�nh ?nh minh ch?ng tham gia s? ki?n
 
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-01.jpg" alt="Event evidence image"></p>
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-02.jpg" alt="Event evidence image"></p>
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.3-Event3/event3-proof-03.jpg" alt="Event evidence image"></p>
+
+
 
 
 

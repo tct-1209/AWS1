@@ -1,25 +1,27 @@
 ﻿---
-title: "Các bài blogs đã dịch"
+title: "C�c b�i blogs d� d?ch"
 date: 2026-07-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Các bài blogs đã dịch
+# C�c b�i blogs d� d?ch
 
-Phần này tổng hợp 3 bài blog đã đọc, dịch/tóm tắt và chia sẻ trong quá trình tìm hiểu AWS. Nội dung tập trung vào các chủ đề gần với dự án triển khai SUMMER-STORE trên AWS: tối ưu chi phí RDS, mở rộng hệ thống với EC2 và tư duy kiến trúc khi scale Lambda ở quy mô lớn.
+Ph?n n�y t?ng h?p 3 b�i blog d� d?c, d?ch/t�m t?t v� chia s? trong qu� tr�nh t�m hi?u AWS. N?i dung t?p trung v�o c�c ch? d? g?n v?i d? �n tri?n khai SUMMER-STORE tr�n AWS: t?i uu chi ph� RDS, m? r?ng h? th?ng v?i EC2 v� tu duy ki?n tr�c khi scale Lambda ? quy m� l?n.
 
-## Danh sách blog
+## Danh s�ch blog
 
-### [Blog 1 - Tối ưu chi phí Amazon RDS bằng cách tự động Start/Stop với AWS Lambda](3.1-Blog1/)
-Bài viết giúp hiểu cách sử dụng **Amazon EventBridge Scheduler**, **AWS Lambda** và **IAM Role** để tự động bật/tắt **Amazon RDS** theo lịch, từ đó giảm chi phí khi database không cần chạy liên tục.
+### [Blog 1 - T?i uu chi ph� Amazon RDS b?ng c�ch t? d?ng Start/Stop v?i AWS Lambda](3.1-Blog1/)
+B�i vi?t gi�p hi?u c�ch s? d?ng **Amazon EventBridge Scheduler**, **AWS Lambda** v� **IAM Role** d? t? d?ng b?t/t?t **Amazon RDS** theo l?ch, t? d� gi?m chi ph� khi database kh�ng c?n ch?y li�n t?c.
 
-### [Blog 2 - Scale hệ thống không chỉ là thêm EC2](3.2-Blog2/)
-Bài viết nhấn mạnh rằng mở rộng hệ thống không đơn giản là tăng số lượng EC2, mà cần chuẩn bị kiến trúc gồm nhiều Availability Zone, Auto Scaling, health check, giám sát và thiết kế ứng dụng phù hợp.
+### [Blog 2 - Scale h? th?ng kh�ng ch? l� th�m EC2](3.2-Blog2/)
+B�i vi?t nh?n m?nh r?ng m? r?ng h? th?ng kh�ng don gi?n l� tang s? lu?ng EC2, m� c?n chu?n b? ki?n tr�c g?m nhi?u Availability Zone, Auto Scaling, health check, gi�m s�t v� thi?t k? ?ng d?ng ph� h?p.
 
 ### [Blog 3 - Lessons learned from scaling to 1 million Lambda functions](3.3-Blog3/)
-Bài viết nói về bài học khi vận hành hệ thống serverless ở quy mô rất lớn, đặc biệt là tư duy event-driven, hàng đợi, DLQ, giới hạn dịch vụ, quan sát hệ thống và quản trị kiến trúc phân tán.
+B�i vi?t n�i v? b�i h?c khi v?n h�nh h? th?ng serverless ? quy m� r?t l?n, d?c bi?t l� tu duy event-driven, h�ng d?i, DLQ, gi?i h?n d?ch v?, quan s�t h? th?ng v� qu?n tr? ki?n tr�c ph�n t�n.
+
+
 
 
 

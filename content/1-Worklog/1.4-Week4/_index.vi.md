@@ -1,44 +1,46 @@
 ﻿---
-title: "Worklog Tuần 4"
+title: "Worklog Tu?n 4"
 date: 2026-07-01
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-# Worklog Tuần 4: Giám sát, hỗ trợ và quản trị chi phí trên AWS
+# Worklog Tu?n 4: Gi�m s�t, h? tr? v� qu?n tr? chi ph� tr�n AWS
 
-**Thời gian thực hiện:** 11/05/2026 - 17/05/2026
+**Th?i gian th?c hi?n:** 11/05/2026 - 17/05/2026
 
-## 1. Mục tiêu tuần
+## 1. M?c ti�u tu?n
 
-- Tìm hiểu CloudWatch, Logs, Metrics, Alarms và Dashboard.
-- Nắm cách tạo AWS Budgets để cảnh báo chi phí.
-- Tìm hiểu AWS Support và quy trình kiểm tra khuyến nghị vận hành.
+- T�m hi?u CloudWatch, Logs, Metrics, Alarms v� Dashboard.
+- N?m c�ch t?o AWS Budgets d? c?nh b�o chi ph�.
+- T�m hi?u AWS Support v� quy tr�nh ki?m tra khuy?n ngh? v?n h�nh.
 
-## 2. Chi tiết công việc triển khai
+## 2. Chi ti?t c�ng vi?c tri?n khai
 
-| Thứ | Thời gian | Nội dung công việc |
+| Th? | Th?i gian | N?i dung c�ng vi?c |
 | --- | --- | --- |
-| Thứ 2 | 11/05/2026 | Tìm hiểu CloudWatch Metrics và cách xem chỉ số CPU, network, disk của tài nguyên. |
-| Thứ 3 | 12/05/2026 | Thực hành đọc CloudWatch Logs và ghi chú vai trò của log khi debug backend. |
-| Thứ 4 | 13/05/2026 | Tạo kế hoạch cảnh báo chi phí với AWS Budgets và phân biệt Cost Budget/Usage Budget. |
-| Thứ 5 | 14/05/2026 | Tìm hiểu AWS Support Center, support plan và cách tìm thông tin khi gặp sự cố. |
-| Thứ 6 | 15/05/2026 | Tổng hợp checklist giám sát: metric, log, alarm, billing và cleanup sau khi làm lab. |
+| Th? 2 | 11/05/2026 | T�m hi?u CloudWatch Metrics v� c�ch xem ch? s? CPU, network, disk c?a t�i nguy�n. |
+| Th? 3 | 12/05/2026 | Th?c h�nh d?c CloudWatch Logs v� ghi ch� vai tr� c?a log khi debug backend. |
+| Th? 4 | 13/05/2026 | T?o k? ho?ch c?nh b�o chi ph� v?i AWS Budgets v� ph�n bi?t Cost Budget/Usage Budget. |
+| Th? 5 | 14/05/2026 | T�m hi?u AWS Support Center, support plan v� c�ch t�m th�ng tin khi g?p s? c?. |
+| Th? 6 | 15/05/2026 | T?ng h?p checklist gi�m s�t: metric, log, alarm, billing v� cleanup sau khi l�m lab. |
 
-## 3. Kết quả đạt được
+## 3. K?t qu? d?t du?c
 
-- Hiểu sự khác nhau giữa metric, log và alarm.
-- Biết cách theo dõi chi phí để tránh vượt credit.
-- Cải thiện kỹ năng kiểm tra hệ thống sau khi deploy.
+- Hi?u s? kh�c nhau gi?a metric, log v� alarm.
+- Bi?t c�ch theo d�i chi ph� d? tr�nh vu?t credit.
+- C?i thi?n k? nang ki?m tra h? th?ng sau khi deploy.
 
-## 4. Nguồn tài liệu tham khảo
+## 4. Ngu?n t�i li?u tham kh?o
 
-| Nguồn | Đường dẫn | Nội dung tham khảo |
+| Ngu?n | �u?ng d?n | N?i dung tham kh?o |
 | --- | --- | --- |
 | 000036 - AWS CloudWatch Workshop | [https://000036.awsstudygroup.com/](https://000036.awsstudygroup.com/) | Metrics, logs, alarms, dashboards |
 | 000007 - AWS Budgets | [https://000007.awsstudygroup.com/](https://000007.awsstudygroup.com/) | Budget types and alerts |
 | 000009 - AWS Support | [https://000009.awsstudygroup.com/](https://000009.awsstudygroup.com/) | AWS Support workflow |
+
+
 
 
 

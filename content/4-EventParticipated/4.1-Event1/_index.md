@@ -61,3 +61,4 @@ After the event, I gained a better understanding of safe AWS learning habits, co
 <p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-06.jpg" alt="Event evidence image"></p>
 
 
+
