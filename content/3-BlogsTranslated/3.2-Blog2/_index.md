@@ -38,3 +38,4 @@ At the moment, SUMMER-STORE runs the Spring Boot backend on a single EC2 instanc
 
 
 
+
