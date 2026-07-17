@@ -20,7 +20,7 @@ Trong th?i gian th?c t?p, em d� tham gia c�c s? ki?n thu?c c?ng d?ng AWS/FCA
 ---
 
 ### [Event 2](4.2-Event2/)
-&emsp;**T�n s? ki?n:** AWS Study Group Meetup 06/06/2026
+&emsp;**T�n s? ki?n:** AWS Study Group Meetup 
 
 &emsp;**Th?i gian:** 09:00 ng�y 06/06/2026
 

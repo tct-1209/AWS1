@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **Bootcamp First Cloud AI Journey** from **20/04/2026** to **12/07/2026**, I had the opportunity to learn, practice, and apply cloud knowledge in a practical working environment.
+During my internship at **Bootcamp First Cloud AI Journey** from **20/04/2026** to **30/07/2026**, I had the opportunity to learn, practice, and apply cloud knowledge in a practical working environment.
 
 Through AWS labs, worklog activities, community events, and the deployment workshop, I improved my self-learning ability, documentation skills, service configuration skills, troubleshooting mindset, and work presentation skills.
 

@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 # Nh?t k� c�ng vi?c th?c t?p AWS
 
-Ph?n n�y tr�nh b�y l?i n?i dung th?c t?p theo 12 tu?n, gi? nguy�n khung th?i gian t? **20/04/2026 d?n 12/07/2026**. N?i dung d� du?c bi�n t?p l?i theo hu?ng kh�c v?i b?n g?c, d?a tr�n qu� tr�nh r� so�t c�c workshop AWS Study Group t? **000001 d?n 000050** v� ch?n c�c ngu?n ph� h?p v?i t?ng tu?n.
+Ph?n n�y tr�nh b�y l?i n?i dung th?c t?p theo 12 tu?n, gi? nguy�n khung th?i gian t? **20/04/2026 d?n 30/07/2026**. N?i dung d� du?c bi�n t?p l?i theo hu?ng kh�c v?i b?n g?c, d?a tr�n qu� tr�nh r� so�t c�c workshop AWS Study Group t? **000001 d?n 000050** v� ch?n c�c ngu?n ph� h?p v?i t?ng tu?n.
 
 | Tu?n | N?i dung ch�nh | Th?i gian | Ngu?n ch�nh |
 | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong su?t th?i gian th?c t?p t?i **Bootcamp First Cloud AI Journey** t? **20/04/2026** d?n **12/07/2026**, em d� c� co h?i h?c h?i, th?c h�nh v� �p d?ng ki?n th?c cloud v�o m�i tru?ng l�m vi?c th?c t?.
+Trong su?t th?i gian th?c t?p t?i **Bootcamp First Cloud AI Journey** t? **20/04/2026** d?n **30/07/2026**, em d� c� co h?i h?c h?i, th?c h�nh v� �p d?ng ki?n th?c cloud v�o m�i tru?ng l�m vi?c th?c t?.
 
 Th�ng qua c�c b�i lab AWS, n?i dung worklog, c�c s? ki?n c?ng d?ng v� workshop tri?n khai h? th?ng, em d� r�n luy?n th�m k? nang t? h?c, d?c t�i li?u, c?u h�nh d?ch v?, ki?m tra l?i v� tr�nh b�y k?t qu? c�ng vi?c.
 

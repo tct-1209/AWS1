@@ -20,7 +20,7 @@ During the internship period, I attended events from the AWS/FCAJ community. The
 ---
 
 ### [Event 2](4.2-Event2/)
-&emsp;**Event Name:** AWS Study Group Meetup 06/06/2026
+&emsp;**Event Name:** AWS Study Group Meetup 
 
 &emsp;**Date & Time:** 09:00, 06/06/2026
 

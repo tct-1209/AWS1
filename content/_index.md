@@ -24,7 +24,7 @@ chapter: false
 
 &emsp; **Internship Position:** Cloud Engineer Intern
 
-&emsp; **Internship Duration:** From 20/04/2026 to 12/07/2026
+&emsp; **Internship Duration:** From 20/04/2026 to 30/07/2026
 
 <div style="text-align:center; margin: 24px 0;">
   <img src="/AWS1/images/avatar.jpg" alt="Tran Chau Trinh profile picture" style="max-width:260px; width:100%; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />

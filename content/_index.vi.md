@@ -24,7 +24,7 @@ chapter: false
 
 &emsp; **V? tr� th?c t?p:** Cloud Engineer Intern
 
-&emsp; **Th?i gian th?c t?p:** T? ng�y 20/04/2026 d?n ng�y 12/07/2026
+&emsp; **Th?i gian th?c t?p:** T? ng�y 20/04/2026 d?n ng�y 30/07/2026
 
 <div style="text-align:center; margin: 24px 0;">
   <img src="/AWS/images/avatar.jpg" alt="?nh d?i di?n Tr?n Ch�u Trinh" style="max-width:260px; width:100%; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />

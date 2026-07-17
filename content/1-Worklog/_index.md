@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 # AWS Internship Worklog
 
-This section rewrites the internship worklog across 12 weeks while keeping the original timeline from **20/04/2026 to 12/07/2026**. The weekly topics were rebuilt from a review of AWS Study Group workshops from **000001 to 000050**, with selected references mapped to each week.
+This section rewrites the internship worklog across 12 weeks while keeping the original timeline from **20/04/2026 to 30/07/2026**. The weekly topics were rebuilt from a review of AWS Study Group workshops from **000001 to 000050**, with selected references mapped to each week.
 
 | Week | Main topic | Time | Main reference |
 | --- | --- | --- | --- |
