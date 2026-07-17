@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Event 1"
 date: 2026-07-01
 weight: 1
@@ -53,12 +53,12 @@ After the event, I gained a better understanding of safe AWS learning habits, co
 
 ### Evidence images
 
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-01.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-02.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-03.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-04.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-05.jpg" alt="Event evidence image"></p>
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.1-Event1/event1-06.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.1-Event1/event1-01.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.1-Event1/event1-02.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.1-Event1/event1-03.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.1-Event1/event1-04.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.1-Event1/event1-05.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.1-Event1/event1-06.jpg" alt="Event evidence image"></p>
 
 
 

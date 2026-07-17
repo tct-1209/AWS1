@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Worklog Week 4"
 date: 2026-07-01
 weight: 4

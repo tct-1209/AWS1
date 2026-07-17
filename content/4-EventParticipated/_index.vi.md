@@ -1,47 +1,43 @@
-﻿---
-title: "C�c events d� tham gia"
+---
+title: "Các events đã tham gia"
 date: 2026-07-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong th?i gian th?c t?p, em d� tham gia c�c s? ki?n thu?c c?ng d?ng AWS/FCAJ. C�c s? ki?n n�y gi�p em m? r?ng ki?n th?c v? cloud, b?o m?t, DevOps, AI, k? nang tr�nh b�y v� d?nh hu?ng ngh? nghi?p trong linh v?c c�ng ngh?.
+Trong thời gian thực tập, em đã tham gia các sự kiện thuộc cộng đồng AWS/FCAJ. Các sự kiện này giúp em mở rộng kiến thức về cloud, bảo mật, DevOps, AI, kỹ năng trình bày và định hướng nghề nghiệp trong lĩnh vực công nghệ.
 
 ### [Event 1](4.1-Event1/)
-&emsp;**T�n s? ki?n:** Event Meet Up
+&emsp;**Tên sự kiện:** Event Meet Up
 
-&emsp;**Th?i gian:** 09:00 ng�y 30/05/2026
+&emsp;**Thời gian:** 09:00 ngày 30/05/2026
 
-&emsp;**�?a di?m:** T?ng 26, t�a nh� Bitexco, s? 02 du?ng H?i Tri?u, phu?ng S�i G�n, th�nh ph? H? Ch� Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai tr�:** Ngu?i tham d?
+&emsp;**Vai trò:** Người tham dự
 
 ---
 
 ### [Event 2](4.2-Event2/)
-&emsp;**T�n s? ki?n:** AWS Study Group Meetup 
+&emsp;**Tên sự kiện:** AWS Study Group Meetup 06/06/2026
 
-&emsp;**Th?i gian:** 09:00 ng�y 06/06/2026
+&emsp;**Thời gian:** 09:00 ngày 06/06/2026
 
-&emsp;**�?a di?m:** T?ng 26, t�a nh� Bitexco, s? 02 du?ng H?i Tri?u, phu?ng S�i G�n, th�nh ph? H? Ch� Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai tr�:** Ngu?i tham d?
+&emsp;**Vai trò:** Người tham dự
 
 ---
 
 ### [Event 3](4.3-Event3/)
-&emsp;**T�n s? ki?n:** Cloud Architect Final & Technical Sharing
+&emsp;**Tên sự kiện:** Cloud Architect Final & Technical Sharing
 
-&emsp;**Th?i gian:** 09:00 ng�y 11/07/2026
+&emsp;**Thời gian:** 09:00 ngày 11/07/2026
 
-&emsp;**�?a di?m:** T?ng 26, t�a nh� Bitexco, s? 02 du?ng H?i Tri?u, phu?ng S�i G�n, th�nh ph? H? Ch� Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai tr�:** Ngu?i tham d?
-
-
-
-
+&emsp;**Vai trò:** Người tham dự
 
 
 

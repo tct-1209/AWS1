@@ -1,48 +1,44 @@
-﻿---
-title: "Worklog Tu?n 8"
+---
+title: "Worklog Tuần 8"
 date: 2026-07-01
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-# Worklog Tu?n 8: K?t n?i m?ng n�ng cao v?i VPC Peering v� Transit Gateway
+# Worklog Tuần 8: Kết nối mạng nâng cao với VPC Peering và Transit Gateway
 
-**Th?i gian th?c hi?n:** 08/06/2026 - 14/06/2026
+**Thời gian thực hiện:** 08/06/2026 - 14/06/2026
 
-## 1. M?c ti�u tu?n
+## 1. Mục tiêu tuần
 
-- N?m m� h�nh VPC Peering d? k?t n?i hai VPC.
-- T�m hi?u Transit Gateway nhu trung t�m k?t n?i nhi?u VPC.
-- Bi?t c�ch c?p nh?t route table v� ki?m th? k?t n?i gi?a c�c m�y ch?.
+- Nắm mô hình VPC Peering để kết nối hai VPC.
+- Tìm hiểu Transit Gateway như trung tâm kết nối nhiều VPC.
+- Biết cách cập nhật route table và kiểm thử kết nối giữa các máy chủ.
 
-## 2. Chi ti?t c�ng vi?c tri?n khai
+## 2. Chi tiết công việc triển khai
 
-| Th? | Th?i gian | N?i dung c�ng vi?c |
+| Thứ | Thời gian | Nội dung công việc |
 | --- | --- | --- |
-| Th? 2 | 08/06/2026 | T�m hi?u VPC Peering, gi?i h?n, lu?ng traffic v� tru?ng h?p s? d?ng. |
-| Th? 3 | 09/06/2026 | Nghi�n c?u Cross-Peer DNS Resolution v� t�c d?ng d?n vi?c ph�n gi?i t�n mi?n n?i b?. |
-| Th? 4 | 10/06/2026 | T�m hi?u Transit Gateway Attachment v� c�ch nhi?u VPC k?t n?i v? m?t di?m trung t�m. |
-| Th? 5 | 11/06/2026 | �?c c�ch c?p nh?t route table ? t?ng VPC d? cho ph�p traffic di qua peering/gateway. |
-| Th? 6 | 12/06/2026 | T?ng h?p c�ch ki?m tra k?t n?i b?ng ping, private IP, route table v� Security Group. |
+| Thứ 2 | 08/06/2026 | Tìm hiểu VPC Peering, giới hạn, luồng traffic và trường hợp sử dụng. |
+| Thứ 3 | 09/06/2026 | Nghiên cứu Cross-Peer DNS Resolution và tác động đến việc phân giải tên miền nội bộ. |
+| Thứ 4 | 10/06/2026 | Tìm hiểu Transit Gateway Attachment và cách nhiều VPC kết nối về một điểm trung tâm. |
+| Thứ 5 | 11/06/2026 | Đọc cách cập nhật route table ở từng VPC để cho phép traffic đi qua peering/gateway. |
+| Thứ 6 | 12/06/2026 | Tổng hợp cách kiểm tra kết nối bằng ping, private IP, route table và Security Group. |
 
-## 3. K?t qu? d?t du?c
+## 3. Kết quả đạt được
 
-- Hi?u s? kh�c nhau gi?a VPC Peering v� Transit Gateway.
-- Bi?t c�c bu?c d?nh tuy?n traffic gi?a nhi?u VPC.
-- C?i thi?n kh? nang debug l?i k?t n?i m?ng n?i b? AWS.
+- Hiểu sự khác nhau giữa VPC Peering và Transit Gateway.
+- Biết các bước định tuyến traffic giữa nhiều VPC.
+- Cải thiện khả năng debug lỗi kết nối mạng nội bộ AWS.
 
-## 4. Ngu?n t�i li?u tham kh?o
+## 4. Nguồn tài liệu tham khảo
 
-| Ngu?n | �u?ng d?n | N?i dung tham kh?o |
+| Nguồn | Đường dẫn | Nội dung tham khảo |
 | --- | --- | --- |
 | 000019 - VPC Peering | [https://000019.awsstudygroup.com/](https://000019.awsstudygroup.com/) | VPC peering and DNS |
 | 000020 - AWS Transit Gateway | [https://000020.awsstudygroup.com/](https://000020.awsstudygroup.com/) | Transit Gateway and attachments |
 | 000010 - Route 53 Resolver | [https://000010.awsstudygroup.com/](https://000010.awsstudygroup.com/) | Hybrid DNS concepts |
-
-
-
-
 
 
 

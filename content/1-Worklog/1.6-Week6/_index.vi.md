@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Worklog Tuần 6"
 date: 2026-07-01
 weight: 6

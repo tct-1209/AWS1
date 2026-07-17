@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tổng quan workshop"
 date: 2026-07-01
 weight: 1
@@ -22,7 +22,7 @@ Phần workshop tập trung vào việc triển khai website thương mại đi�
 
 #### Workflow tổng thể
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="Workflow triển khai SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="Workflow triển khai SUMMER-STORE trên AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Workflow triển khai SUMMER-STORE trên AWS</em></p>
 
 #### Luồng hoạt động chính

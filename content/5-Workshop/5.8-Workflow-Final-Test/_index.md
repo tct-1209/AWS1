@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Test the full workflow and VNPay payment"
 date: 2026-07-01
 weight: 8
@@ -10,7 +10,7 @@ pre: " <b> 5.8. </b> "
 
 After the frontend, backend, and database are deployed, test the complete workflow of the SUMMER-STORE system.
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="Overall SUMMER-STORE workflow on AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="Overall SUMMER-STORE workflow on AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>Overall SUMMER-STORE workflow on AWS</em></p>
 
 #### Main test flow

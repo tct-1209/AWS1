@@ -1,49 +1,45 @@
-﻿---
-title: "Worklog Tu?n 1"
+---
+title: "Worklog Tuần 1"
 date: 2026-07-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-# Worklog Tu?n 1: N?n t?ng AWS Free Tier, IAM v� AWS CLI
+# Worklog Tuần 1: Nền tảng AWS Free Tier, IAM và AWS CLI
 
-**Th?i gian th?c hi?n:** 20/04/2026 - 26/04/2026
+**Thời gian thực hiện:** 20/04/2026 - 26/04/2026
 
-## 1. M?c ti�u tu?n
+## 1. Mục tiêu tuần
 
-- N?m t?ng quan v? AWS Free Tier, c�ch qu?n l� credit v� c�c r?i ro ph�t sinh chi ph�.
-- T�m hi?u IAM User, Group, Policy, Role v� nguy�n t?c ph�n quy?n t?i thi?u.
-- C�i d?t AWS CLI, c?u h�nh profile v� th?c h�nh m?t s? l?nh ki?m tra t�i kho?n.
+- Nắm tổng quan về AWS Free Tier, cách quản lý credit và các rủi ro phát sinh chi phí.
+- Tìm hiểu IAM User, Group, Policy, Role và nguyên tắc phân quyền tối thiểu.
+- Cài đặt AWS CLI, cấu hình profile và thực hành một số lệnh kiểm tra tài khoản.
 
-## 2. Chi ti?t c�ng vi?c tri?n khai
+## 2. Chi tiết công việc triển khai
 
-| Th? | Th?i gian | N?i dung c�ng vi?c |
+| Thứ | Thời gian | Nội dung công việc |
 | --- | --- | --- |
-| Th? 2 | 20/04/2026 | T?ng h?p l? tr�nh th?c t?p, d?c t�i li?u AWS Free Tier v� ghi ch� c�c nh�m d?ch v? c?n uu ti�n h?c. |
-| Th? 3 | 21/04/2026 | T�m hi?u c�ch t?o t�i kho?n, qu?n l� credit, theo d�i Billing v� thi?t l?p th�i quen d?n d?p t�i nguy�n sau lab. |
-| Th? 4 | 22/04/2026 | Nghi�n c?u IAM Group, IAM User, IAM Policy v� MFA; ph�n bi?t quy?n tr?c ti?p v� quy?n th�ng qua group. |
-| Th? 5 | 23/04/2026 | Th?c h�nh c�i d?t AWS CLI, c?u h�nh profile, ki?m tra identity v� ghi ch� l?i thu?ng g?p khi nh?p access key. |
-| Th? 6 | 24/04/2026 | T?ng k?t ki?n th?c tu?n, l?p checklist b?o m?t t�i kho?n v� danh s�ch ngu?n tham kh?o cho c�c tu?n ti?p theo. |
+| Thứ 2 | 20/04/2026 | Tổng hợp lộ trình thực tập, đọc tài liệu AWS Free Tier và ghi chú các nhóm dịch vụ cần ưu tiên học. |
+| Thứ 3 | 21/04/2026 | Tìm hiểu cách tạo tài khoản, quản lý credit, theo dõi Billing và thiết lập thói quen dọn dẹp tài nguyên sau lab. |
+| Thứ 4 | 22/04/2026 | Nghiên cứu IAM Group, IAM User, IAM Policy và MFA; phân biệt quyền trực tiếp và quyền thông qua group. |
+| Thứ 5 | 23/04/2026 | Thực hành cài đặt AWS CLI, cấu hình profile, kiểm tra identity và ghi chú lỗi thường gặp khi nhập access key. |
+| Thứ 6 | 24/04/2026 | Tổng kết kiến thức tuần, lập checklist bảo mật tài khoản và danh sách nguồn tham khảo cho các tuần tiếp theo. |
 
-## 3. K?t qu? d?t du?c
+## 3. Kết quả đạt được
 
-- Hi?u r� c�ch b?t d?u h?c AWS an to�n v?i Free Tier v� credit.
-- Bi?t c�ch ph�n quy?n co b?n b?ng IAM v� h?n ch? d�ng root account.
-- C?u h�nh du?c AWS CLI d? ph?c v? c�c b�i th?c h�nh sau.
+- Hiểu rõ cách bắt đầu học AWS an toàn với Free Tier và credit.
+- Biết cách phân quyền cơ bản bằng IAM và hạn chế dùng root account.
+- Cấu hình được AWS CLI để phục vụ các bài thực hành sau.
 
-## 4. Ngu?n t�i li?u tham kh?o
+## 4. Nguồn tài liệu tham khảo
 
-| Ngu?n | �u?ng d?n | N?i dung tham kh?o |
+| Nguồn | Đường dẫn | Nội dung tham khảo |
 | --- | --- | --- |
 | 000001 - AWS Free Tier 2025 | [https://000001.awsstudygroup.com/](https://000001.awsstudygroup.com/) | Free Tier, credit, cost monitoring |
 | 000002 - IAM Access Control | [https://000002.awsstudygroup.com/](https://000002.awsstudygroup.com/) | IAM group, user, policy, role |
 | 000007 - AWS Budgets | [https://000007.awsstudygroup.com/](https://000007.awsstudygroup.com/) | Budget and cost alerts |
 | 000011 - AWS CLI | [https://000011.awsstudygroup.com/](https://000011.awsstudygroup.com/) | AWS CLI setup |
-
-
-
-
 
 
 

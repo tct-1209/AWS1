@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sharing and Feedback"
 date: 2026-07-01
 weight: 7

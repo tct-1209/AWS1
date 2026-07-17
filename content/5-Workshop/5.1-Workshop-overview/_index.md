@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Workshop overview"
 date: 2026-07-01
 weight: 1
@@ -22,7 +22,7 @@ This workshop focuses on deploying the **SUMMER-STORE** e-commerce website to AW
 
 #### Overall workflow
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="SUMMER-STORE deployment workflow on AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.1-Workshop-overview/5-1-01-workflow-aws.png" alt="SUMMER-STORE deployment workflow on AWS" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
 <p style="text-align:center;"><em>SUMMER-STORE deployment workflow on AWS</em></p>
 
 #### Main application flow

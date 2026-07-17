@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Blog 2 - Scaling a system is not just adding EC2"
 date: 2026-07-01
 weight: 2
@@ -16,7 +16,7 @@ A system can use an **Auto Scaling Group** to automatically increase or decrease
 
 ## Shared post screenshot
 
-<img src="/AWS/images/3-BlogsTranslated/blog-2.png" alt="Blog 2 - Scaling a system is not just adding EC2" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
+<img src="/AWS1/images/3-BlogsTranslated/blog-2.png" alt="Blog 2 - Scaling a system is not just adding EC2" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin: 16px 0;" />
 
 ## What I learned
 

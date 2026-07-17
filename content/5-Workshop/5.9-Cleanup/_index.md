@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Clean up resources"
 date: 2026-07-01
 weight: 9

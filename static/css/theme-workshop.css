@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
   --MAIN-TEXT-color: #323235; /* Color of text by default */
   --MAIN-TITLES-TEXT-color: #778ba5; /* Color of titles h2-h3-h4-h5 */
@@ -43,7 +45,7 @@ input[type="month"]:focus,
 input[type="time"]:focus,
 input[type="week"]:focus,
 select[multiple="multiple"]:focus {
-  border-color: none;
+  border-color: transparent;
   box-shadow: none;
 }
 
@@ -163,14 +165,14 @@ div.notices p:first-child:before {
   top: 2px;
   color: #fff;
   font-family: "Font Awesome\ 5 Free";
-  content: #f06a;
+  content: "\f06a";
   font-weight: 900; /* Fix version 5.0.9 */
   left: 10px;
 }
 
 body {
   color: var(--MAIN-TEXT-color) !important;
-  font-family: "Amazon Ember", "Work Sans", sans-serif;
+  font-family: "Segoe UI", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   text-align: left;
 }
 
@@ -180,7 +182,7 @@ h3,
 h4,
 h5 {
   color: var(--MAIN-TITLES-TEXT-color) !important;
-  font-family: "Amazon Ember", "Montserrat", sans-serif;
+  font-family: "Segoe UI", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 
 .ui-state-default,
@@ -215,7 +217,7 @@ a.ui-button:active,
 }
 
 .hljs {
-  background-color: none;
+  background-color: transparent;
 }
 
 pre {
@@ -225,4 +227,16 @@ pre {
 div.notices.info p {
   border-top: 30px solid #fd9827;
   background: #fff2db;
+}
+
+
+/* Vietnamese-safe typography */
+html, body, button, input, select, textarea, #body, #sidebar {
+  font-family: "Segoe UI", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+#body-inner, #body-inner p, #body-inner li, #body-inner table, #body-inner code {
+  unicode-bidi: plaintext;
 }

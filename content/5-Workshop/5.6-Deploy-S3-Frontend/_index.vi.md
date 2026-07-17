@@ -1,77 +1,73 @@
-﻿---
-title: "Deploy frontend React v?i Amazon S3 Static Website Hosting"
+---
+title: "Deploy frontend React với Amazon S3 Static Website Hosting"
 date: 2026-07-01
 weight: 6
 chapter: false
 pre: " <b> 5.6. </b> "
 ---
 
-# Deploy frontend React v?i Amazon S3 Static Website Hosting
+# Deploy frontend React với Amazon S3 Static Website Hosting
 
-Frontend React/Vite du?c build th�nh c�c file static v� upload l�n Amazon S3. S3 Static Website Hosting gi�p website c� th? truy c?p th�ng qua S3 website endpoint.
+Frontend React/Vite được build thành các file static và upload lên Amazon S3. S3 Static Website Hosting giúp website có thể truy cập thông qua S3 website endpoint.
 
 #### 1. Build frontend React/Vite
 
-Build frontend React th�nh c�c file static d? chu?n b? tri?n khai l�n Amazon S3.
+Build frontend React thành các file static để chuẩn bị triển khai lên Amazon S3.
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-01-frontend-source.png" alt="Thu m?c frontend tru?c khi build" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Thu m?c frontend tru?c khi build</em></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-01-frontend-source.png" alt="Thư mục frontend trước khi build" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Thư mục frontend trước khi build</em></p>
 
-V� d? l?nh build:
+Ví dụ lệnh build:
 
 ```bash
 npm install
 npm run build
 ```
 
-#### 2. T?o S3 Bucket cho frontend
+#### 2. Tạo S3 Bucket cho frontend
 
-T?o S3 Bucket ri�ng d? luu tr? c�c file static c?a frontend React sau khi build.
+Tạo S3 Bucket riêng để lưu trữ các file static của frontend React sau khi build.
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-02-s3-frontend-bucket.png" alt="T?o S3 frontend bucket" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>T?o S3 frontend bucket</em></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-02-s3-frontend-bucket.png" alt="Tạo S3 frontend bucket" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Tạo S3 frontend bucket</em></p>
 
-Bucket frontend c?a d? �n:
+Bucket frontend của dự án:
 
 ```text
 clothing-store-frontend-dien0311
 ```
 
-#### 3. Upload file static l�n S3
+#### 3. Upload file static lên S3
 
-Upload to�n b? file static sau khi build frontend React l�n Amazon S3. C�c thu m?c `assets` v� `images` du?c gi? nguy�n d? website c� th? load d�ng JavaScript, CSS v� h�nh ?nh.
+Upload toàn bộ file static sau khi build frontend React lên Amazon S3. Các thư mục `assets` và `images` được giữ nguyên để website có thể load đúng JavaScript, CSS và hình ảnh.
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-03-upload-static-files.png" alt="Upload file static frontend l�n S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Upload file static frontend l�n S3</em></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-03-upload-static-files.png" alt="Upload file static frontend lên S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Upload file static frontend lên S3</em></p>
 
-#### 4. B?t Static Website Hosting
+#### 4. Bật Static Website Hosting
 
-B?t Static Website Hosting cho S3 Bucket d? tri?n khai frontend React du?i d?ng website tinh. File `index.html` du?c s? d?ng l�m trang ch�nh c?a ?ng d?ng.
+Bật Static Website Hosting cho S3 Bucket để triển khai frontend React dưới dạng website tĩnh. File `index.html` được sử dụng làm trang chính của ứng dụng.
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-04-static-website-hosting.png" alt="B?t Static Website Hosting cho S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>B?t Static Website Hosting cho S3</em></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-04-static-website-hosting.png" alt="Bật Static Website Hosting cho S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Bật Static Website Hosting cho S3</em></p>
 
-C?u h�nh co b?n:
+Cấu hình cơ bản:
 
 ```text
 Index document: index.html
 Error document: index.html
 ```
 
-#### 5. Ki?m tra website sau khi deploy
+#### 5. Kiểm tra website sau khi deploy
 
-Frontend React d� du?c build v� tri?n khai th�nh c�ng l�n Amazon S3 Static Website Hosting. Website c� th? truy c?p th�ng qua S3 website endpoint v� t?i du?c d?y d? file HTML, CSS, JavaScript, h�nh ?nh.
+Frontend React đã được build và triển khai thành công lên Amazon S3 Static Website Hosting. Website có thể truy cập thông qua S3 website endpoint và tải được đầy đủ file HTML, CSS, JavaScript, hình ảnh.
 
-<p class="workshop-img"><img src="/AWS/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-05-frontend-s3-success.png" alt="Frontend SUMMER-STORE ch?y tr�n S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
-<p style="text-align:center;"><em>Frontend SUMMER-STORE ch?y tr�n S3</em></p>
+<p class="workshop-img"><img src="/AWS1/images/5-Workshop/5.6-Deploy-S3-Frontend/5-6-05-frontend-s3-success.png" alt="Frontend SUMMER-STORE chạy trên S3" style="max-width:100%;height:auto;display:block;margin:1rem auto;border:1px solid #e5e7eb;border-radius:6px;" /></p>
+<p style="text-align:center;"><em>Frontend SUMMER-STORE chạy trên S3</em></p>
 
 {{% notice note %}}
-Trong ph?m vi d? �n hi?n t?i, frontend du?c tri?n khai tr?c ti?p b?ng S3 Static Website Hosting. CloudFront v� Route 53 c� th? du?c b? sung sau n?u c?n domain ri�ng, HTTPS v� CDN.
+Trong phạm vi dự án hiện tại, frontend được triển khai trực tiếp bằng S3 Static Website Hosting. CloudFront và Route 53 có thể được bổ sung sau nếu cần domain riêng, HTTPS và CDN.
 {{% /notice %}}
-
-
-
-
 
 
 

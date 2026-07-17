@@ -1,48 +1,44 @@
-﻿---
-title: "Worklog Tu?n 3"
+---
+title: "Worklog Tuần 3"
 date: 2026-07-01
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-# Worklog Tu?n 3: Amazon RDS, backup v� qu?n l� d? li?u quan h?
+# Worklog Tuần 3: Amazon RDS, backup và quản lý dữ liệu quan hệ
 
-**Th?i gian th?c hi?n:** 04/05/2026 - 10/05/2026
+**Thời gian thực hiện:** 04/05/2026 - 10/05/2026
 
-## 1. M?c ti�u tu?n
+## 1. Mục tiêu tuần
 
-- T�m hi?u Amazon RDS v� c�c database engine ph? bi?n.
-- Th?c h�nh chu?n b? VPC, DB Subnet Group v� Security Group cho database.
-- N?m kh�i ni?m backup, snapshot v� kh�i ph?c d? li?u.
+- Tìm hiểu Amazon RDS và các database engine phổ biến.
+- Thực hành chuẩn bị VPC, DB Subnet Group và Security Group cho database.
+- Nắm khái niệm backup, snapshot và khôi phục dữ liệu.
 
-## 2. Chi ti?t c�ng vi?c tri?n khai
+## 2. Chi tiết công việc triển khai
 
-| Th? | Th?i gian | N?i dung c�ng vi?c |
+| Thứ | Thời gian | Nội dung công việc |
 | --- | --- | --- |
-| Th? 2 | 04/05/2026 | T�m hi?u t?ng quan Amazon RDS, c�c engine nhu MySQL, PostgreSQL, SQL Server v� Aurora. |
-| Th? 3 | 05/05/2026 | Chu?n b? Security Group cho EC2 v� RDS, ph�n bi?t truy c?p t? m�y c� nh�n v� t? EC2 backend. |
-| Th? 4 | 06/05/2026 | T?o DB Subnet Group, xem th�ng tin endpoint v� ghi ch� c�ch ?ng d?ng k?t n?i database. |
-| Th? 5 | 07/05/2026 | Nghi�n c?u backup t? d?ng, snapshot th? c�ng v� nguy�n t?c kh�i ph?c khi d? li?u g?p s? c?. |
-| Th? 6 | 08/05/2026 | T?ng h?p quy tr�nh k?t n?i EC2 d?n RDS v� c�c l?i ph? bi?n nhu timeout, sai endpoint ho?c sai inbound rule. |
+| Thứ 2 | 04/05/2026 | Tìm hiểu tổng quan Amazon RDS, các engine như MySQL, PostgreSQL, SQL Server và Aurora. |
+| Thứ 3 | 05/05/2026 | Chuẩn bị Security Group cho EC2 và RDS, phân biệt truy cập từ máy cá nhân và từ EC2 backend. |
+| Thứ 4 | 06/05/2026 | Tạo DB Subnet Group, xem thông tin endpoint và ghi chú cách ứng dụng kết nối database. |
+| Thứ 5 | 07/05/2026 | Nghiên cứu backup tự động, snapshot thủ công và nguyên tắc khôi phục khi dữ liệu gặp sự cố. |
+| Thứ 6 | 08/05/2026 | Tổng hợp quy trình kết nối EC2 đến RDS và các lỗi phổ biến như timeout, sai endpoint hoặc sai inbound rule. |
 
-## 3. K?t qu? d?t du?c
+## 3. Kết quả đạt được
 
-- Hi?u c�ch tri?n khai database managed service b?ng Amazon RDS.
-- Bi?t c�ch c?u h�nh k?t n?i b?o m?t gi?a EC2 v� RDS.
-- Nh?n th?c r� vai tr� c?a backup/snapshot trong v?n h�nh h? th?ng.
+- Hiểu cách triển khai database managed service bằng Amazon RDS.
+- Biết cách cấu hình kết nối bảo mật giữa EC2 và RDS.
+- Nhận thức rõ vai trò của backup/snapshot trong vận hành hệ thống.
 
-## 4. Ngu?n t�i li?u tham kh?o
+## 4. Nguồn tài liệu tham khảo
 
-| Ngu?n | �u?ng d?n | N?i dung tham kh?o |
+| Nguồn | Đường dẫn | Nội dung tham khảo |
 | --- | --- | --- |
 | 000005 - Amazon RDS | [https://000005.awsstudygroup.com/](https://000005.awsstudygroup.com/) | RDS, DB subnet group, backup and restore |
 | 000013 - AWS Backup | [https://000013.awsstudygroup.com/](https://000013.awsstudygroup.com/) | Backup strategy |
 | 000043 - Database Schema Conversion & Migration | [https://000043.awsstudygroup.com/](https://000043.awsstudygroup.com/) | Database migration concepts |
-
-
-
-
 
 
 

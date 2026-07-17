@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Event 2"
 date: 2026-07-01
 weight: 2
@@ -49,7 +49,7 @@ Event 2 expanded my knowledge of Docker, web application security, WebSockets, G
 
 ### Evidence images
 
-<p class="workshop-img"><img src="/AWS/images/4-EventParticipated/4.2-Event2/event2-proof-01.jpg" alt="Event evidence image"></p>
+<p class="workshop-img"><img src="/AWS1/images/4-EventParticipated/4.2-Event2/event2-proof-01.jpg" alt="Event evidence image"></p>
 
 
 

@@ -1,43 +1,39 @@
-﻿---
-title: "T? d�nh gi�"
+---
+title: "Tự đánh giá"
 date: 2026-07-01
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong su?t th?i gian th?c t?p t?i **Bootcamp First Cloud AI Journey** t? **20/04/2026** d?n **30/07/2026**, em d� c� co h?i h?c h?i, th?c h�nh v� �p d?ng ki?n th?c cloud v�o m�i tru?ng l�m vi?c th?c t?.
+Trong suốt thời gian thực tập tại **Bootcamp First Cloud AI Journey** từ **20/04/2026** đến **12/07/2026**, em đã có cơ hội học hỏi, thực hành và áp dụng kiến thức cloud vào môi trường làm việc thực tế.
 
-Th�ng qua c�c b�i lab AWS, n?i dung worklog, c�c s? ki?n c?ng d?ng v� workshop tri?n khai h? th?ng, em d� r�n luy?n th�m k? nang t? h?c, d?c t�i li?u, c?u h�nh d?ch v?, ki?m tra l?i v� tr�nh b�y k?t qu? c�ng vi?c.
+Thông qua các bài lab AWS, nội dung worklog, các sự kiện cộng đồng và workshop triển khai hệ thống, em đã rèn luyện thêm kỹ năng tự học, đọc tài liệu, cấu hình dịch vụ, kiểm tra lỗi và trình bày kết quả công việc.
 
-�? nh�n l?i qu� tr�nh th?c t?p m?t c�ch kh�ch quan, em t? d�nh gi� b?n th�n theo c�c ti�u ch� sau:
+Để nhìn lại quá trình thực tập một cách khách quan, em tự đánh giá bản thân theo các tiêu chí sau:
 
-| STT | Ti�u ch�                            | M� t?                                                                                            | T?t | Kh� | Trung b�nh |
+| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Ki?n th?c v� k? nang chuy�n m�n** | Hi?u bi?t v? ng�nh, �p d?ng ki?n th?c v�o th?c t?, k? nang s? d?ng c�ng c?, ch?t lu?ng c�ng vi?c | ?   | ?   | ?          |
-| 2   | **Kh? nang h?c h?i**                | Ti?p thu ki?n th?c m?i, h?c h?i nhanh                                                            | ?   | ?   | ?          |
-| 3   | **Ch? d?ng**                        | T? t�m hi?u, nh?n nhi?m v? m� kh�ng ch? ch? d?n                                                  | ?   | ?   | ?          |
-| 4   | **Tinh th?n tr�ch nhi?m**           | Ho�n th�nh c�ng vi?c d�ng h?n, d?m b?o ch?t lu?ng                                                | ?   | ?   | ?          |
-| 5   | **K? lu?t**                         | Tu�n th? gi? gi?c, n?i quy, quy tr�nh l�m vi?c                                                   | ?   | ?   | ?          |
-| 6   | **T�nh c?u ti?n**                   | S?n s�ng nh?n feedback v� c?i thi?n b?n th�n                                                     | ?   | ?   | ?          |
-| 7   | **Giao ti?p**                       | Tr�nh b�y � tu?ng, b�o c�o c�ng vi?c r� r�ng                                                     | ?   | ?   | ?          |
-| 8   | **H?p t�c nh�m**                    | L�m vi?c hi?u qu? v?i d?ng nghi?p, tham gia nh�m                                                 | ?   | ?   | ?          |
-| 9   | **?ng x? chuy�n nghi?p**            | T�n tr?ng d?ng nghi?p, d?i t�c, m�i tru?ng l�m vi?c                                              | ?   | ?   | ?          |
-| 10  | **Tu duy gi?i quy?t v?n d?**        | Nh?n di?n v?n d?, d? xu?t gi?i ph�p, s�ng t?o                                                    | ?   | ?   | ?          |
-| 11  | **��ng g�p v�o d? �n/t? ch?c**      | Hi?u qu? c�ng vi?c, s�ng ki?n c?i ti?n, ghi nh?n t? team                                         | ?   | ?   | ?          |
-| 12  | **T?ng th?**                        | ��nh gi� chung v? to�n b? qu� tr�nh th?c t?p                                                     | ?   | ?   | ?          |
+| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
+| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
+| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
+| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ✅   | ☐   | ☐          |
+| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ✅   | ☐   | ☐          |
+| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
+| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
+| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
+| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
+| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
+| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
 
-### C?n c?i thi?n
+### Cần cải thiện
 
-Em c?n c?i thi?n th�m kh? nang t?ng h?p ki?n th?c theo hu?ng ng?n g?n v� c� h? th?ng hon. Sau m?i b�i lab ho?c bu?i workshop, em n�n ch? d?ng ghi l?i m?c ti�u, c�c bu?c c?u h�nh ch�nh, l?i d� g?p v� c�ch ki?m tra k?t qu? d? d? d�ng �n l?i khi c?n.
+Em cần cải thiện thêm khả năng tổng hợp kiến thức theo hướng ngắn gọn và có hệ thống hơn. Sau mỗi bài lab hoặc buổi workshop, em nên chủ động ghi lại mục tiêu, các bước cấu hình chính, lỗi đã gặp và cách kiểm tra kết quả để dễ dàng ôn lại khi cần.
 
-B�n c?nh d�, em c?n r�n luy?n th�m k? nang x? l� l?i theo t?ng l?p. Khi g?p v?n d? v? h? th?ng, em s? c? g?ng ki?m tra l?n lu?t t? network, Security Group, service dang ch?y, log ?ng d?ng, database connection d?n c?u h�nh deploy thay v� x? l� theo c?m t�nh.
+Bên cạnh đó, em cần rèn luyện thêm kỹ năng xử lý lỗi theo từng lớp. Khi gặp vấn đề về hệ thống, em sẽ cố gắng kiểm tra lần lượt từ network, Security Group, service đang chạy, log ứng dụng, database connection đến cấu hình deploy thay vì xử lý theo cảm tính.
 
-Trong th?i gian t?i, em s? ti?p t?c luy?n t?p v?i AWS CLI, CloudWatch Logs, IAM, CI/CD v� c�c quy tr�nh cleanup t�i nguy�n d? l�m vi?c ch? d?ng hon, h?n ch? l?i l?p l?i v� t? tin hon khi tr�nh b�y k?t qu? v?i mentor ho?c nh�m.
-
-
-
-
+Trong thời gian tới, em sẽ tiếp tục luyện tập với AWS CLI, CloudWatch Logs, IAM, CI/CD và các quy trình cleanup tài nguyên để làm việc chủ động hơn, hạn chế lỗi lặp lại và tự tin hơn khi trình bày kết quả với mentor hoặc nhóm.
 
 
 

@@ -1,49 +1,45 @@
-﻿---
-title: "Worklog Tu?n 7"
+---
+title: "Worklog Tuần 7"
 date: 2026-07-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-# Worklog Tu?n 7: B?o m?t ?ng d?ng v� qu?n tr? quy?n truy c?p
+# Worklog Tuần 7: Bảo mật ứng dụng và quản trị quyền truy cập
 
-**Th?i gian th?c hi?n:** 01/06/2026 - 07/06/2026
+**Thời gian thực hiện:** 01/06/2026 - 07/06/2026
 
-## 1. M?c ti�u tu?n
+## 1. Mục tiêu tuần
 
-- T�m hi?u AWS WAF v� c�ch b?o v? web application.
-- N?m vai tr� Security Hub, KMS v� IAM condition trong b?o m?t.
-- Th?c h�nh tu duy ki?m so�t quy?n theo tag v� role.
+- Tìm hiểu AWS WAF và cách bảo vệ web application.
+- Nắm vai trò Security Hub, KMS và IAM condition trong bảo mật.
+- Thực hành tư duy kiểm soát quyền theo tag và role.
 
-## 2. Chi ti?t c�ng vi?c tri?n khai
+## 2. Chi tiết công việc triển khai
 
-| Th? | Th?i gian | N?i dung c�ng vi?c |
+| Thứ | Thời gian | Nội dung công việc |
 | --- | --- | --- |
-| Th? 2 | 01/06/2026 | T�m hi?u AWS WAF, Web ACL, managed rules v� custom rules cho ?ng d?ng web. |
-| Th? 3 | 02/06/2026 | �?c t?ng quan Security Hub d? hi?u c�ch t?p trung ph�t hi?n v� theo d�i v?n d? b?o m?t. |
-| Th? 4 | 03/06/2026 | Nghi�n c?u m� h�a d? li?u v?i AWS KMS v� nguy�n t?c qu?n l� key. |
-| Th? 5 | 04/06/2026 | T�m hi?u IAM Role & Condition d? ki?m so�t quy?n theo di?u ki?n truy c?p. |
-| Th? 6 | 05/06/2026 | T?ng h?p c�c th?c h�nh b?o m?t �p d?ng cho d? �n web: rule inbound, token, log v� ph�n quy?n. |
+| Thứ 2 | 01/06/2026 | Tìm hiểu AWS WAF, Web ACL, managed rules và custom rules cho ứng dụng web. |
+| Thứ 3 | 02/06/2026 | Đọc tổng quan Security Hub để hiểu cách tập trung phát hiện và theo dõi vấn đề bảo mật. |
+| Thứ 4 | 03/06/2026 | Nghiên cứu mã hóa dữ liệu với AWS KMS và nguyên tắc quản lý key. |
+| Thứ 5 | 04/06/2026 | Tìm hiểu IAM Role & Condition để kiểm soát quyền theo điều kiện truy cập. |
+| Thứ 6 | 05/06/2026 | Tổng hợp các thực hành bảo mật áp dụng cho dự án web: rule inbound, token, log và phân quyền. |
 
-## 3. K?t qu? d?t du?c
+## 3. Kết quả đạt được
 
-- Hi?u th�m c�ch b?o v? ?ng d?ng web khi ch?y tr�n AWS.
-- N?m vai tr� c?a m� h�a v� ki?m so�t quy?n theo di?u ki?n.
-- C� checklist b?o m?t d? �p d?ng v�o d? �n th?c t?p.
+- Hiểu thêm cách bảo vệ ứng dụng web khi chạy trên AWS.
+- Nắm vai trò của mã hóa và kiểm soát quyền theo điều kiện.
+- Có checklist bảo mật để áp dụng vào dự án thực tập.
 
-## 4. Ngu?n t�i li?u tham kh?o
+## 4. Nguồn tài liệu tham khảo
 
-| Ngu?n | �u?ng d?n | N?i dung tham kh?o |
+| Nguồn | Đường dẫn | Nội dung tham khảo |
 | --- | --- | --- |
 | 000026 - AWS WAF | [https://000026.awsstudygroup.com/](https://000026.awsstudygroup.com/) | Web ACL and WAF rules |
 | 000018 - AWS Security Hub | [https://000018.awsstudygroup.com/](https://000018.awsstudygroup.com/) | Security findings |
 | 000033 - AWS KMS | [https://000033.awsstudygroup.com/](https://000033.awsstudygroup.com/) | Encryption at rest |
 | 000044 - IAM Role & Condition | [https://000044.awsstudygroup.com/](https://000044.awsstudygroup.com/) | Conditional access |
-
-
-
-
 
 
 
