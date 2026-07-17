@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event 2: AWS Study Group Meetup 06/06/2026
+# Event 2: Event Meetup 06/06/2026
 
 ### Event information
 
 | Item | Information |
 |---|---|
-| **Event name** | AWS Study Group Meetup 06/06/2026 |
+| **Event name** | Event Meetup |
 | **Time** | 09:00, 06/06/2026 |
 | **Location** | 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City |
 | **Role** | Attendee |

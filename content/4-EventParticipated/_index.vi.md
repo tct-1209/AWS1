@@ -20,7 +20,7 @@ Trong thời gian thực tập, em đã tham gia các sự kiện thuộc cộng
 ---
 
 ### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** AWS Study Group Meetup 06/06/2026
+&emsp;**Tên sự kiện:** Event Meetup 06/06/2026
 
 &emsp;**Thời gian:** 09:00 ngày 06/06/2026
 

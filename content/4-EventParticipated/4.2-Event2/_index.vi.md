@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event 2: AWS Study Group Meetup 06/06/2026
+# Event 2: Event Meetup 06/06/2026
 
 ### Thông tin sự kiện
 
 | Nội dung | Thông tin |
 |---|---|
-| **Tên sự kiện** | AWS Study Group Meetup 06/06/2026 |
+| **Tên sự kiện** | Event Meetup |
 | **Thời gian** | 09:00, ngày 06/06/2026 |
 | **Địa điểm** | Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
 | **Vai trò** | Người tham dự |

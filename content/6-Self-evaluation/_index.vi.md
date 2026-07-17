@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **Bootcamp First Cloud AI Journey** từ **20/04/2026** đến **12/07/2026**, em đã có cơ hội học hỏi, thực hành và áp dụng kiến thức cloud vào môi trường làm việc thực tế.
+Trong suốt thời gian thực tập tại **Bootcamp First Cloud AI Journey** từ **20/04/2026** đến **30/07/2026**, em đã có cơ hội học hỏi, thực hành và áp dụng kiến thức cloud vào môi trường làm việc thực tế.
 
 Thông qua các bài lab AWS, nội dung worklog, các sự kiện cộng đồng và workshop triển khai hệ thống, em đã rèn luyện thêm kỹ năng tự học, đọc tài liệu, cấu hình dịch vụ, kiểm tra lỗi và trình bày kết quả công việc.
 
